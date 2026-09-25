@@ -5,7 +5,7 @@
 <header class="site-header" data-header>
   <nav class="navbar navbar-inner container-wide" aria-label="Main navigation">
     <a href="/" class="logo-link" aria-label="<?php echo htmlspecialchars($siteName); ?> Home">
-      <img src="/assets/images/logo-mark.png" alt="<?php echo htmlspecialchars($siteName); ?> logo" class="site-logo" width="138" height="96">
+      <img src="/assets/images/logo-mark.png" alt="<?php echo htmlspecialchars($siteName); ?> logo" class="site-logo logo--square" width="96" height="96">
     </a>
 
     <!-- Desktop Navigation -->
