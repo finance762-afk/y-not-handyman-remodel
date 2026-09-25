@@ -33,7 +33,7 @@ $serviceFaqs = [
     ],
     [
         'q' => 'How quickly can you schedule handyman work?',
-        'a' => 'Most handyman work gets scheduled within 24 to 48 hours. If you have an urgent fix we do our best to fit you in same-day. During busy season, booking a few days ahead is safest.',
+        'a' => 'Tony returns calls quickly and offers the first available time on the schedule. If you have an urgent fix, say so when you call and he will do his best to fit you in sooner.',
     ],
     [
         'q' => 'Can you handle my honey-do list all at once?',
