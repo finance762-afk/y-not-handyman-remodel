@@ -44,6 +44,7 @@
   --color-accent-rgb: 200, 70, 26;
   --color-accent-dark: color-mix(in srgb, #c8461a 55%, black);      /* accent as TEXT on light — 55% keeps warm accents ≥4.5:1 on paper (2026-09-04) */
   --color-accent-bright: color-mix(in srgb, #c8461a 80%, white);    /* eyebrows on dark bands */
+  --color-accent-muted: color-mix(in srgb, #c8461a 18%, white);     /* subtle accent backgrounds */
 
   /* Ground and ink — warm, hue-biased neutrals (never pure grey) */
   --color-paper: #f6f3ec;
@@ -78,6 +79,8 @@
   --fs-h1: clamp(1.9rem, 1.15rem + 2.1vw, 2.65rem);
   --fs-h2: clamp(1.55rem, 1rem + 1.5vw, 2.1rem);
   --fs-h3: clamp(1.1rem, .95rem + .5vw, 1.3rem);
+  --fs-h4: clamp(1rem, .92rem + .3vw, 1.15rem);
+  --fs-4: clamp(1rem, .92rem + .3vw, 1.15rem); /* alias for --fs-h4 */
   --fs-lead: clamp(1.05rem, .95rem + .35vw, 1.2rem);
   --fs-body: 1rem; --fs-small: .875rem; --fs-eyebrow: .78rem;
   --font-size-xs: .75rem; --font-size-sm: .875rem; --font-size-base: 1rem; --font-size-lg: 1.125rem;
@@ -89,7 +92,7 @@
   --nav-height: 84px; --navbar-height: 84px;
   --max-width: 1180px; --container: 1180px; --max-width-wide: 1400px; --container-wide: 1400px;
   --section-pad: clamp(3.5rem, 7vw, 6rem); --section-pad-mobile: 3rem;
-  --space-1: .25rem; --space-2: .5rem; --space-3: .75rem; --space-4: 1rem; --space-5: 1.25rem; --space-6: 1.5rem;
+  --space-1: .25rem; --space-2: .5rem; --space-3: .75rem; --space-4: 1rem; --space-5: 1.25rem; --space-6: 1.5rem; --space-7: 1.75rem;
   --space-8: 2rem; --space-10: 2.5rem; --space-12: 3rem; --space-16: 4rem;
   --space-xs: .5rem; --space-sm: .75rem; --space-md: 1rem; --space-lg: 1.5rem; --space-xl: 2rem; --space-2xl: 3rem; --space-3xl: 4rem; --space-4xl: 6rem;
   --radius-sm: 4px; --radius: 8px; --radius-md: 8px; --radius-lg: 14px; --radius-xl: 20px; --radius-full: 999px;

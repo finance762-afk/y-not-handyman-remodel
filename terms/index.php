@@ -10,7 +10,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 $currentPage = 'terms';
 
 $pageTitle       = 'Terms of Service | Y-Not Handyman & Remodel';
-$metaDescription = 'Terms governing use of our website and engagement of our services. Read our terms before submitting a project request.';
+$pageDescription = 'Terms governing use of our website and engagement of our services. Read our terms before submitting a project request.';
+$metaDescription = $pageDescription;
 $canonicalUrl    = $siteUrl . '/terms/';
 $ogImage         = $siteUrl . '/assets/images/logo-mark.png';
 

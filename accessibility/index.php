@@ -10,7 +10,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 $currentPage = 'accessibility';
 
 $pageTitle       = 'Accessibility Statement | Y-Not Handyman & Remodel';
-$metaDescription = 'Our commitment to digital accessibility and WCAG 2.1 AA conformance. Learn about our accessibility features and how to report barriers.';
+$pageDescription = 'Our commitment to digital accessibility and WCAG 2.1 AA conformance. Learn about our accessibility features and how to report barriers.';
+$metaDescription = $pageDescription;
 $canonicalUrl    = $siteUrl . '/accessibility/';
 $ogImage         = $siteUrl . '/assets/images/logo-mark.png';
 

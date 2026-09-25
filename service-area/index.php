@@ -6,7 +6,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 $currentPage    = 'service-area';
 $pageType       = 'other';
 $pageTitle      = "Service Areas | $siteName | St. George & Surrounding UT Communities";
-$metaDescription = "Y-Not Handyman & Remodel proudly serves St. George, Washington, Hurricane, Santa Clara, Ivins, Leeds, and surrounding Utah communities with professional handyman and remodeling services. Licensed, insured, and locally owned.";
+$pageDescription = "Y-Not Handyman & Remodel proudly serves St. George, Washington, Hurricane, Santa Clara, Ivins, Leeds, and surrounding Utah communities with professional handyman and remodeling services. Licensed, insured, and locally owned.";
+$metaDescription = $pageDescription;
 $canonicalUrl   = $siteUrl . '/service-area/';
 
 /* ---- Schema Markup ------------------------------------------------------- */

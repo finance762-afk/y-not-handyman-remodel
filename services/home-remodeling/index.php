@@ -13,7 +13,8 @@ $pageType    = 'service';
 $serviceSlug = 'home-remodeling';
 
 $pageTitle       = 'Home Remodeling in St. George, UT | Y-Not Handyman & Remodel';
-$metaDescription = 'Kitchen, bathroom, and whole-home remodeling in St. George, UT. Licensed contractor for decks, additions, and complete room updates. Free estimates.';
+$pageDescription = 'Kitchen, bathroom, and whole-home remodeling in St. George, UT. Licensed contractor for decks, additions, and complete room updates. Free estimates.';
+$metaDescription = $pageDescription;
 $canonicalUrl    = $siteUrl . '/services/home-remodeling/';
 $ogImage         = $siteUrl . '/assets/images/gbp-35.jpg';
 

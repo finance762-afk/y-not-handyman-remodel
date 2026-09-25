@@ -13,7 +13,8 @@ $pageType    = 'service';
 $serviceSlug = 'door-installation';
 
 $pageTitle       = 'Door Installation in St. George, UT | Y-Not Handyman & Remodel';
-$metaDescription = 'Interior and exterior door installation in St. George, UT. Licensed contractor for new doors, replacements, hardware, weatherstripping. Free estimates.';
+$pageDescription = 'Interior and exterior door installation in St. George, UT. Licensed contractor for new doors, replacements, hardware, weatherstripping. Free estimates.';
+$metaDescription = $pageDescription;
 $canonicalUrl    = $siteUrl . '/services/door-installation/';
 $ogImage         = $siteUrl . '/assets/images/gbp-07.jpg';
 
@@ -36,11 +37,11 @@ $serviceFaqs = [
     ],
     [
         'q' => 'Do you install exterior doors and weatherproof them?',
-        'a' => 'Yes. We install exterior doors, adjust the threshold for a tight seal, install weatherstripping, caulk the trim, and ensure the door closes securely. Proper weatherproofing keeps dust, heat, and moisture out in St. George's desert climate.',
+        'a' => 'Yes. We install exterior doors, adjust the threshold for a tight seal, install weatherstripping, caulk the trim, and ensure the door closes securely. Proper weatherproofing keeps dust, heat, and moisture out in St. George\'s desert climate.',
     ],
     [
         'q' => 'Do you haul away the old door?',
-        'a' => 'Yes. We remove the old door and trim, haul it away, and clean up the job site. You won't have debris sitting in your driveway.',
+        'a' => 'Yes. We remove the old door and trim, haul it away, and clean up the job site. You won\'t have debris sitting in your driveway.',
     ],
 ];
 

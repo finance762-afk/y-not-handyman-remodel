@@ -10,7 +10,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 $currentPage = 'cookie-policy';
 
 $pageTitle       = 'Cookie Policy | Y-Not Handyman & Remodel';
-$metaDescription = 'How Y-Not Handyman & Remodel uses cookies and tracking technologies on our website. Learn about the cookies we use and how to control them.';
+$pageDescription = 'How Y-Not Handyman & Remodel uses cookies and tracking technologies on our website. Learn about the cookies we use and how to control them.';
+$metaDescription = $pageDescription;
 $canonicalUrl    = $siteUrl . '/cookie-policy/';
 $ogImage         = $siteUrl . '/assets/images/logo-mark.png';
 

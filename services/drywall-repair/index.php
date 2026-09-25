@@ -13,7 +13,8 @@ $pageType    = 'service';
 $serviceSlug = 'drywall-repair';
 
 $pageTitle       = 'Drywall Repair in St. George, UT | Y-Not Handyman & Remodel';
-$metaDescription = 'Professional drywall repair in St. George, UT. Holes, cracks, water damage, texture matching. Licensed, fast, paint-ready finish. Free estimates.';
+$pageDescription = 'Professional drywall repair in St. George, UT. Holes, cracks, water damage, texture matching. Licensed, fast, paint-ready finish. Free estimates.';
+$metaDescription = $pageDescription;
 $canonicalUrl    = $siteUrl . '/services/drywall-repair/';
 $ogImage         = $siteUrl . '/assets/images/gbp-05.jpg';
 

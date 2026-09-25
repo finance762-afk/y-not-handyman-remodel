@@ -1,0 +1,16 @@
+# robots.txt — Y-Not Handyman & Remodel
+# Generated Phase 5 — SEO/AEO/Deploy
+
+# Allow all crawlers (including AI bots)
+User-agent: *
+Allow: /
+
+# Disallow crawling of includes and scripts
+Disallow: /includes/
+Disallow: /assets/js/
+
+# Disallow thank-you page (no SEO value, could be indexed from email links)
+Disallow: /thank-you
+
+# Sitemap location
+Sitemap: https://y-not-handyman-remodel.pageone.cloud/sitemap.xml

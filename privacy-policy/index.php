@@ -10,7 +10,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 $currentPage = 'privacy-policy';
 
 $pageTitle       = 'Privacy Policy | Y-Not Handyman & Remodel';
-$metaDescription = 'How Y-Not Handyman & Remodel collects, uses, and protects your information. Privacy practices for our website and contact forms.';
+$pageDescription = 'How Y-Not Handyman & Remodel collects, uses, and protects your information. Privacy practices for our website and contact forms.';
+$metaDescription = $pageDescription;
 $canonicalUrl    = $siteUrl . '/privacy-policy/';
 $ogImage         = $siteUrl . '/assets/images/logo-mark.png';
 

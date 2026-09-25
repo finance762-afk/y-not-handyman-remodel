@@ -12,7 +12,8 @@ $currentPage = 'home';
 $pageType    = 'home';                                   // attribution.php reads $GLOBALS['pageType']
 
 $pageTitle       = 'Handyman & Remodeling in St. George, UT | Y-Not Handyman & Remodel';
-$metaDescription = 'Y-Not Handyman & Remodel is a licensed, family-owned handyman and remodeling contractor in St. George, UT. Repairs, drywall, painting, doors, decks and full remodels. Free estimates.';
+$pageDescription = 'Y-Not Handyman & Remodel is a licensed, family-owned handyman and remodeling contractor in St. George, UT. Repairs, drywall, painting, doors, decks and full remodels. Free estimates.';
+$metaDescription = $pageDescription; // Alias for backwards compatibility
 $canonicalUrl    = $siteUrl . '/';
 $ogType          = 'website';
 $ogImage         = $siteUrl . '/assets/images/gbp-05.jpg';
@@ -216,7 +217,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <div class="hero-text">
         <span class="eyebrow">St. George, UT &middot; Family-Owned Since 2020</span>
         <h1 class="hero-title">Handyman and remodeling done right in St. George</h1>
-        <p class="hero-answer">Y-Not Handyman &amp; Remodel handles the repairs, upgrades, and full remodels most St. George homeowners keep putting off — licensed, insured, and family-run since 2020.</p>
+        <p class="hero-answer">Y-Not Handyman &amp; Remodel handles the repairs, upgrades, and full remodels most St. George homeowners keep putting off — from drywall patches and door installations to complete room makeovers. We're licensed, insured, and family-run since 2020, delivering reliable work without the runaround.</p>
         <div class="hero-actions">
           <button type="button" class="btn btn-primary btn-lg hero-form-open" data-open-estimate>Get a free estimate</button>
           <a class="link-call" href="tel:<?php echo $phoneRaw; ?>">

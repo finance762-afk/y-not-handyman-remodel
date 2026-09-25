@@ -11,7 +11,8 @@ $currentPage = 'about';
 $pageType    = 'about';
 
 $pageTitle       = 'About Us | Y-Not Handyman & Remodel | St. George, UT';
-$metaDescription = 'Meet the team at Y-Not Handyman & Remodel. Locally owned handyman and remodeling contractor serving St. George since 2020. Licensed, insured, and trusted by local homeowners.';
+$pageDescription = 'Meet the team at Y-Not Handyman & Remodel. Locally owned handyman and remodeling contractor serving St. George since 2020. Licensed, insured, and trusted by local homeowners.';
+$metaDescription = $pageDescription;
 $canonicalUrl    = $siteUrl . '/about/';
 $ogImage         = $siteUrl . '/assets/images/gbp-05.jpg';
 

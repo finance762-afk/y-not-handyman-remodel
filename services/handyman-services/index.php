@@ -13,7 +13,8 @@ $pageType    = 'service';
 $serviceSlug = 'handyman-services';
 
 $pageTitle       = 'Handyman Services in St. George, UT | Y-Not Handyman & Remodel';
-$metaDescription = 'Professional handyman services in St. George, UT. Small repairs to punch lists — drywall, painting, fixtures, doors, and more. Licensed, insured, free estimates. Call (801) 833-1588.';
+$pageDescription = 'Professional handyman services in St. George, UT. Small repairs to punch lists — drywall, painting, fixtures, doors, and more. Licensed, insured, free estimates. Call (801) 833-1588.';
+$metaDescription = $pageDescription;
 $canonicalUrl    = $siteUrl . '/services/handyman-services/';
 $ogImage         = $siteUrl . '/assets/images/gbp-12.jpg';
 

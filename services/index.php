@@ -11,7 +11,8 @@ $currentPage = 'services';
 $pageType    = 'other';
 
 $pageTitle       = 'Handyman & Remodeling Services in St. George, UT | Y-Not Handyman & Remodel';
-$metaDescription = 'Complete handyman and remodeling services in St. George, UT. From small repairs to full remodels — drywall, painting, doors, plumbing fixtures, and more. Licensed, insured, free estimates.';
+$pageDescription = 'Complete handyman and remodeling services in St. George, UT. From small repairs to full remodels — drywall, painting, doors, plumbing fixtures, and more. Licensed, insured, free estimates.';
+$metaDescription = $pageDescription;
 $canonicalUrl    = $siteUrl . '/services/';
 $ogImage         = $siteUrl . '/assets/images/gbp-35.jpg';
 

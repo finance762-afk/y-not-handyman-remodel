@@ -11,7 +11,8 @@ $currentPage = 'thank-you';
 $noindex     = true;  // Do not index thank-you pages
 
 $pageTitle       = 'Thank You | Y-Not Handyman & Remodel';
-$metaDescription = 'Thank you for contacting Y-Not Handyman & Remodel. We\'ll be in touch shortly with your free estimate.';
+$pageDescription = 'Thank you for contacting Y-Not Handyman & Remodel. We\'ll be in touch shortly with your free estimate.';
+$metaDescription = $pageDescription;
 $canonicalUrl    = $siteUrl . '/thank-you';
 $ogImage         = $siteUrl . '/assets/images/logo-mark.png';
 
