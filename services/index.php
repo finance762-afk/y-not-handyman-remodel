@@ -11,7 +11,7 @@ $currentPage = 'services';
 $pageType    = 'other';
 
 $pageTitle       = 'Handyman & Remodeling Services in St. George, UT | Y-Not Handyman & Remodel';
-$pageDescription = 'Complete handyman and remodeling services in St. George, UT. From small repairs to full remodels — drywall, painting, doors, plumbing fixtures, and more. Licensed, insured, free estimates.';
+$pageDescription = 'Handyman and remodeling services in St. George, UT — drywall, painting, doors, fixtures, repairs to full remodels. Locally owned since 2020. Free estimates.';
 $metaDescription = $pageDescription;
 $canonicalUrl    = $siteUrl . '/services/';
 $ogImage         = $siteUrl . '/assets/images/gbp-35.jpg';
@@ -110,7 +110,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <div class="hero-text">
       <span class="eyebrow">St. George, UT</span>
       <h1 class="hero-title">Every handyman and remodeling service your home needs</h1>
-      <p class="hero-answer">Y-Not Handyman &amp; Remodel handles the full range of home repair and renovation work across St. George — from a single sticking door to complete kitchen remodels, all managed by one licensed, locally owned crew.</p>
+      <p class="hero-answer">Y-Not Handyman &amp; Remodel handles the full range of home repair and renovation work across St. George — from a single sticking door to complete kitchen remodels, all managed by one locally owned, owner-run crew.</p>
       <div class="hero-actions">
         <button type="button" class="btn btn-accent btn-lg hero-form-open" data-open-estimate>Get a free estimate</button>
         <a class="link-call-light" href="tel:<?php echo $phoneRaw; ?>">

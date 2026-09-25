@@ -11,7 +11,7 @@ $currentPage = 'about';
 $pageType    = 'about';
 
 $pageTitle       = 'About Us | Y-Not Handyman & Remodel | St. George, UT';
-$pageDescription = 'Meet the team at Y-Not Handyman & Remodel. Locally owned handyman and remodeling contractor serving St. George since 2020. Licensed, insured, and trusted by local homeowners.';
+$pageDescription = 'Meet Y-Not Handyman & Remodel, a locally owned, owner-operated handyman and remodeling contractor serving St. George since 2020. Trusted by local homeowners.';
 $metaDescription = $pageDescription;
 $canonicalUrl    = $siteUrl . '/about/';
 $ogImage         = $siteUrl . '/assets/images/gbp-05.jpg';
@@ -331,8 +331,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <div class="value-icon">
           <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
         </div>
-        <h3>Licensed & Insured</h3>
-        <p>Fully licensed, bonded, and insured across all service categories. We carry comprehensive liability insurance and workers' comp so you're protected on every job.</p>
+        <h3>Family-Owned Since 2020</h3>
+        <p>A St. George family business since 2020. You deal directly with the family that owns the company—no call center, no rotating crews.</p>
       </div>
 
       <div class="value-card">
@@ -371,8 +371,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <div class="value-icon">
           <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 11 3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
         </div>
-        <h3>Workmanship Guarantee</h3>
-        <p>We stand behind our work. If something isn't right, we come back and make it right—no excuses. Your satisfaction is the measure of our success.</p>
+        <h3>We Stand Behind Our Work</h3>
+        <p>If something isn't right, we come back and make it right—no excuses. Your satisfaction is the measure of our success.</p>
       </div>
     </div>
   </div>
@@ -381,15 +381,15 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 <!-- Certifications Section -->
 <section class="certifications-section">
   <div class="container">
-    <h2>Licensed & Certified</h2>
+    <h2>Why Homeowners Trust Us</h2>
     <div class="cert-grid">
       <div class="cert-item">
         <div class="cert-icon">
           <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
         </div>
         <div class="cert-text">
-          <h3>Licensed Contractor</h3>
-          <p>Fully licensed in the State of Utah for all services we provide</p>
+          <h3>Serving Washington County</h3>
+          <p>St. George, Washington, Hurricane, Santa Clara, Ivins, and Leeds</p>
         </div>
       </div>
 
@@ -398,8 +398,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
           <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"/><path d="m9 12 2 2 4-4"/></svg>
         </div>
         <div class="cert-text">
-          <h3>Fully Insured</h3>
-          <p>Comprehensive liability coverage plus workers' comp on every project</p>
+          <h3>Free Estimates</h3>
+          <p>Written, no-obligation estimates before any work begins</p>
         </div>
       </div>
 

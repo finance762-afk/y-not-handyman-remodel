@@ -132,11 +132,9 @@ $usps = [
 
 $differentiators = [
     'Locally-owned and operated with deep community roots in St. George',
-    'Fully licensed, bonded, and insured across all service categories',
     'Transparent, upfront pricing with no hidden fees or surprise charges',
     'Fast response times with 24-hour emergency repair availability',
     'Comprehensive service range from minor repairs to full remodels',
-    'Workmanship warranty and satisfaction guarantee on all projects',
 ];
 
 /* ---- Google Business Profile -------------------------------------------- */

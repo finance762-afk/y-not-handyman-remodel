@@ -12,7 +12,7 @@ $currentPage = 'home';
 $pageType    = 'home';                                   // attribution.php reads $GLOBALS['pageType']
 
 $pageTitle       = 'Handyman & Remodeling in St. George, UT | Y-Not Handyman & Remodel';
-$pageDescription = 'Y-Not Handyman & Remodel is a licensed, family-owned handyman and remodeling contractor in St. George, UT. Repairs, drywall, painting, doors, decks and full remodels. Free estimates.';
+$pageDescription = 'Y-Not Handyman & Remodel: family-owned handyman and remodeling contractor in St. George, UT since 2020. Drywall, painting, doors, remodels. Free estimates.';
 $metaDescription = $pageDescription; // Alias for backwards compatibility
 $canonicalUrl    = $siteUrl . '/';
 $ogType          = 'website';
@@ -27,10 +27,6 @@ $heroPreload = [
 /* FAQ data — from research_brief, plus one local service-area question */
 $faqs = [
     [
-        'q' => 'Are you licensed and insured?',
-        'a' => 'Yes. Y-Not Handyman & Remodel is fully licensed, bonded, and carries comprehensive liability insurance plus workers\' compensation coverage on every project we take on in St. George.',
-    ],
-    [
         'q' => 'How quickly can you start work?',
         'a' => 'For routine repairs we typically schedule within 24 to 48 hours, and we keep room in the calendar for urgent issues like water damage. Once the season fills up, booking a free estimate early holds your spot.',
     ],
@@ -41,10 +37,6 @@ $faqs = [
     [
         'q' => 'What types of projects do you handle?',
         'a' => 'Everything from small repairs — drywall, painting, doors, fixtures, caulking — to larger projects like kitchen and bath updates, decks, and whole-room remodels. If it is on your home to-do list, ask us.',
-    ],
-    [
-        'q' => 'What\'s your workmanship guarantee?',
-        'a' => 'We stand behind our work. If something isn\'t right, we come back and make it right — no runaround. Owner Tony Pomikala is on the job and accountable from the first visit to the final walkthrough.',
     ],
     [
         'q' => 'What areas around St. George do you serve?',
@@ -217,7 +209,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <div class="hero-text">
         <span class="eyebrow">St. George, UT &middot; Family-Owned Since 2020</span>
         <h1 class="hero-title">Handyman and remodeling done right in St. George</h1>
-        <p class="hero-answer">Y-Not Handyman &amp; Remodel handles the repairs, upgrades, and full remodels most St. George homeowners keep putting off — from drywall patches and door installations to complete room makeovers. We're licensed, insured, and family-run since 2020, delivering reliable work without the runaround.</p>
+        <p class="hero-answer">Y-Not Handyman &amp; Remodel handles the repairs, upgrades, and full remodels most St. George homeowners keep putting off — from drywall patches and door installations to complete room makeovers. We're locally owned and family-run since 2020, delivering reliable work without the runaround.</p>
         <div class="hero-actions">
           <button type="button" class="btn btn-primary btn-lg hero-form-open" data-open-estimate>Get a free estimate</button>
           <a class="link-call" href="tel:<?php echo $phoneRaw; ?>">
@@ -228,7 +220,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <ul class="hero-chips">
           <li>
             <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>
-            Licensed &amp; insured
+            Owner-operated
           </li>
           <li>
             <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/><path d="m9 16 2 2 4-4"/></svg>
@@ -289,7 +281,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     $tickerItems = [
         ['star', 'Family-owned since 2020'],
         ['map-pin', 'St. George &amp; Washington County'],
-        ['shield-check', 'Licensed &amp; insured'],
+        ['shield-check', 'Owner-operated'],
         ['hammer', 'Repairs to full remodels'],
         ['clock', 'Free same-day quotes'],
         ['check-circle', 'Workmanship you can trust'],

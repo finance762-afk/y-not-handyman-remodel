@@ -171,14 +171,13 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <li>Communicate during active projects</li>
     <li>Send service-related communications (including phone calls and SMS messages where you have consented)</li>
     <li>Improve our website and services</li>
-    <li>Comply with legal obligations (licensing, insurance, tax)</li>
+    <li>Comply with legal obligations (tax, contractual, and regulatory)</li>
   </ul>
 
   <h2>4. How We Share Your Information</h2>
   <ul>
     <li>We do <strong>NOT</strong> sell personal information.</li>
     <li><strong>Service providers:</strong> Google Analytics (analytics), our hosting provider, and Page One Insights, LLC (our web design partner — receives copies of contact form submissions via lead tracking for service delivery purposes).</li>
-    <li><strong>Insurance carriers:</strong> when working on insurance restoration projects, with your explicit consent.</li>
     <li><strong>Subcontractors and material suppliers:</strong> as necessary to complete your project.</li>
     <li><strong>Legal compliance:</strong> if required by <?php echo $companyState; ?> or federal law.</li>
     <li><strong>Business transfers:</strong> in the event of a merger, acquisition, or sale of business assets.</li>
@@ -208,10 +207,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
   <p>When you submit our contact form and check the consent boxes, you may agree to receive phone calls and SMS text messages from us about your project request. Standard message and data rates may apply. Consent is not a condition of purchase. You can opt out of SMS communications at any time by replying STOP to any text message. You can opt out of phone communications at any time by telling our representative or emailing us at <a href="mailto:<?php echo $email; ?>"><?php echo htmlspecialchars($email); ?></a>.</p>
 
   <h2>7. Data Retention</h2>
-  <p>We retain contact form submissions and service records for as long as necessary to provide services and comply with legal obligations, typically 5–7 years for business and warranty records. Photos uploaded via contact forms are deleted after the related project is closed unless retained for warranty or legal purposes.</p>
+  <p>We retain contact form submissions and service records for as long as necessary to provide services and comply with legal obligations, typically 5–7 years for business records. Photos uploaded via contact forms are deleted after the related project is closed unless retained for legal purposes.</p>
 
   <h2>8. Data Security</h2>
-  <p>We use reasonable administrative, technical, and physical safeguards including SSL encryption on all form submissions and secure hosting infrastructure. No system is 100% secure. We cannot guarantee absolute security, but we work to minimize risks.</p>
+  <p>We use reasonable administrative, technical, and physical safeguards including SSL encryption on all form submissions and secure hosting infrastructure. No system is 100% secure. We cannot promise absolute security, but we work to minimize risks.</p>
 
   <h2>9. Children's Privacy</h2>
   <p>This site is not directed to children under 13. We do not knowingly collect information from children. If you believe a child has provided us information, contact us and we will delete it.</p>

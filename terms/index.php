@@ -181,13 +181,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <li>Work is governed by a written contract specific to each job</li>
     <li>We comply with applicable <?php echo $companyState; ?> state and local building codes</li>
     <li>Work is performed by <?php echo htmlspecialchars($siteName); ?> employees and qualified subcontractors</li>
-    <li>All workers carry workers' compensation insurance as required by <?php echo $companyState; ?> law</li>
-    <li>We are licensed and insured to operate in the state of <?php echo $companyState; ?></li>
   </ul>
 
-  <h2>5. Warranties</h2>
-  <p>Workmanship warranties are detailed in your project contract. Manufacturer warranties on materials are provided by those manufacturers and pass through to you upon project completion.</p>
-  <p>Warranties exclude:</p>
+  <h2>5. Materials and Workmanship</h2>
+  <p>Any commitments regarding workmanship are set out in your written project contract. Manufacturer coverage on materials, where offered, is provided by those manufacturers and passes through to you upon project completion.</p>
+  <p>Such coverage does not extend to:</p>
   <ul>
     <li>Acts of God beyond manufacturer ratings</li>
     <li>Damage from neglect or alteration by others</li>
@@ -211,22 +209,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <li>Cancellation after work begins: payment due for work completed plus materials</li>
   </ul>
 
-  <h2>8. Insurance Claim Work</h2>
-  <p>For insurance restoration projects, payment terms are typically structured around your insurance carrier's payment schedule. We do NOT serve as a public adjuster or legal representative. We provide repair estimates and complete approved repairs only. Negotiation of claim values and policy interpretation is the homeowner's responsibility.</p>
-
-  <h2>9. Limitation of Liability</h2>
+  <h2>8. Limitation of Liability</h2>
   <p>To the maximum extent permitted by <?php echo $companyState; ?> law, <?php echo htmlspecialchars($siteName); ?>'s total liability for any claim related to the Site or our services shall not exceed the amount you paid for the specific service giving rise to the claim. We are not liable for indirect, incidental, special, or consequential damages.</p>
 
-  <h2>10. Intellectual Property</h2>
+  <h2>9. Intellectual Property</h2>
   <p>All content on this Site — text, graphics, photographs, logos — is owned by <?php echo htmlspecialchars($siteName); ?> or used with permission, and is protected by copyright. You may not reproduce, distribute, or create derivative works without written permission.</p>
 
-  <h2>11. Governing Law and Disputes</h2>
+  <h2>10. Governing Law and Disputes</h2>
   <p>These Terms are governed by the laws of the State of <?php echo $companyState; ?> without regard to conflict-of-laws principles. Any disputes shall be resolved in the state or federal courts located in Washington County, <?php echo $companyState; ?>.</p>
 
-  <h2>12. Changes to These Terms</h2>
+  <h2>11. Changes to These Terms</h2>
   <p>We may update these Terms at any time. The "Last Updated" date will reflect the most recent version. Continued use of the Site after updates constitutes acceptance of revised Terms.</p>
 
-  <h2>13. Contact Us</h2>
+  <h2>12. Contact Us</h2>
   <p>For questions about these Terms of Service:</p>
   <p>
     <strong><?php echo htmlspecialchars($siteName); ?></strong><br>

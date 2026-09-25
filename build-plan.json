@@ -642,10 +642,6 @@
     "brief": {
       "faqs": [
         {
-          "a": "Yes. We are fully licensed, bonded, and carry comprehensive liability insurance plus workers' compensation coverage on all projects.",
-          "q": "Are you licensed and insured?"
-        },
-        {
           "a": "For routine repairs, we typically schedule within 24-48 hours. We also offer same-day emergency services for urgent issues like water damage or electrical problems.",
           "q": "How quickly can you start work?"
         },
@@ -656,21 +652,15 @@
         {
           "a": "Everything from small repairs (drywall, painting, fixtures) to major projects (kitchen/bath remodels, additions, decks, and general contracting).",
           "q": "What types of projects do you handle?"
-        },
-        {
-          "a": "We guarantee your satisfaction. If you're unhappy with our work, we'll return and make it right—no excuses.",
-          "q": "What's your guarantee or warranty?"
         }
       ],
       "about_angle": "Lead with local ownership and community commitment. Share the founder's background and why they started the business (solving their own frustrations with unreliable contractors, perhaps). Emphasize treating every customer's home with the same care as their own. Highlight the team's diverse expertise and genuine passion for helping St. George homeowners.",
       "hero_headline": "Trusted Handyman & Remodeling Services for St. George Homes",
       "differentiators": [
         "Locally-owned and operated with deep community roots in St. George",
-        "Fully licensed, bonded, and insured across all service categories",
         "Transparent, upfront pricing with no hidden fees or surprise charges",
         "Fast response times with 24-hour emergency repair availability",
-        "Comprehensive service range from minor repairs to full remodels",
-        "Workmanship warranty and satisfaction guarantee on all projects"
+        "Comprehensive service range from minor repairs to full remodels"
       ],
       "hero_subheadline": "Expert repairs and renovations you can count on—from quick fixes to complete remodels, delivered with quality craftsmanship and honest pricing.",
       "tone_recommendation": "Friendly and approachable, yet professional and authoritative. Strike a balance between personable local warmth and clear technical competence. Customers should feel like they're hiring a trusted neighbor who genuinely knows their trade. Avoid overly casual language, but don't be stiff or corporate."

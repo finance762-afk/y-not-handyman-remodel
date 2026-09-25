@@ -13,7 +13,7 @@ $pageType    = 'service';
 $serviceSlug = 'home-remodeling';
 
 $pageTitle       = 'Home Remodeling in St. George, UT | Y-Not Handyman & Remodel';
-$pageDescription = 'Kitchen, bathroom, and whole-home remodeling in St. George, UT. Licensed contractor for decks, additions, and complete room updates. Free estimates.';
+$pageDescription = 'Kitchen, bathroom, and whole-home remodeling in St. George, UT. Local, owner-run contractor for decks, additions, and complete room updates. Free estimates.';
 $metaDescription = $pageDescription;
 $canonicalUrl    = $siteUrl . '/services/home-remodeling/';
 $ogImage         = $siteUrl . '/assets/images/gbp-35.jpg';
@@ -50,7 +50,7 @@ $serviceSchema = [
     '@type' => 'Service',
     '@id' => $siteUrl . '/services/home-remodeling/#service',
     'name' => 'Home Remodeling',
-    'description' => 'Complete home remodeling services in St. George, UT. We handle kitchen and bathroom remodels, room additions, deck construction, and whole-home renovations with licensed, insured craftsmanship.',
+    'description' => 'Complete home remodeling services in St. George, UT. We handle kitchen and bathroom remodels, room additions, deck construction, and whole-home renovations with owner-run, locally owned craftsmanship.',
     'provider' => ['@id' => $siteUrl . '#organization'],
     'areaServed' => [
         '@type' => 'City',
@@ -174,7 +174,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <div class="hero-copy">
         <span class="eyebrow">Home Remodeling · St. George, UT</span>
         <h1 class="hero-title">Transform your St. George home into the space you've always wanted</h1>
-        <p class="hero-answer">Y-Not Handyman &amp; Remodel handles kitchen and bathroom remodels, room additions, deck construction, and whole-home renovations across St. George — with one licensed local contractor managing every detail from design to final walkthrough.</p>
+        <p class="hero-answer">Y-Not Handyman &amp; Remodel handles kitchen and bathroom remodels, room additions, deck construction, and whole-home renovations across St. George — with one local, owner-run contractor managing every detail from design to final walkthrough.</p>
         <div class="hero-actions">
           <button type="button" class="btn btn-primary btn-lg hero-form-open" data-open-estimate>Get a free estimate</button>
           <a class="link-call" href="tel:<?php echo $phoneRaw; ?>">
@@ -183,7 +183,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
           </a>
         </div>
         <ul class="hero-chips">
-          <li><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>Licensed &amp; insured</li>
+          <li><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>Owner-operated since 2020</li>
           <li><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/><path d="m9 16 2 2 4-4"/></svg>Free design consultation</li>
           <li><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Permits handled for you</li>
         </ul>
@@ -263,7 +263,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <div class="reveal-right">
         <span class="eyebrow-label">Our Difference</span>
         <h2>Why do St. George homeowners choose <span class="text-accent">Y-Not</span> for remodeling?</h2>
-        <p class="answer-block">Because Y-Not Handyman &amp; Remodel is a locally owned, licensed contractor who handles the full remodel — from design consultation and permits to final walkthrough — with one accountable team and transparent pricing from day one.</p>
+        <p class="answer-block">Because Y-Not Handyman &amp; Remodel is a locally owned, owner-run contractor who handles the full remodel — from design consultation and permits to final walkthrough — with one accountable team and transparent pricing from day one.</p>
 
         <div class="expert-stat">6 <span style="font-size:.5em;opacity:.7;">years serving St. George</span></div>
 
@@ -292,7 +292,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <div class="reveal-up">
       <span class="eyebrow-label">What We Handle</span>
       <h2>What's included in our <span class="text-accent">home remodeling</span> services?</h2>
-      <p class="answer-block">Y-Not Handyman &amp; Remodel manages every phase of your remodel — from initial design and permitting through demolition, construction, finish work, and final inspection — all with one licensed, insured local contractor.</p>
+      <p class="answer-block">Y-Not Handyman &amp; Remodel manages every phase of your remodel — from initial design and permitting through demolition, construction, finish work, and final inspection — all with one local, owner-run contractor.</p>
     </div>
 
     <div class="breakdown-grid reveal-up">
@@ -399,7 +399,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <div class="reveal-up">
       <span class="eyebrow-label">How We Compare</span>
       <h2>How does Y-Not compare to <span class="text-accent">other remodeling contractors?</span></h2>
-      <p class="answer-block">Y-Not Handyman &amp; Remodel is owner-run, licensed, and accountable for the full project — you get one point of contact, transparent pricing, and guaranteed work, not a sales rep who disappears after the contract is signed.</p>
+      <p class="answer-block">Y-Not Handyman &amp; Remodel is owner-run, local, and accountable for the full project — you get one point of contact, transparent pricing, and work Tony stands behind, not a sales rep who disappears after the contract is signed.</p>
     </div>
 
     <div class="comparison-grid reveal-up">
@@ -478,7 +478,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
   <span class="grain-layer" aria-hidden="true"></span>
   <div class="container">
     <div class="cta-copy">
-      <span class="eyebrow">Licensed &amp; Insured Since 2020</span>
+      <span class="eyebrow">Owner-operated since 2020</span>
       <h2>Let's transform your St. George home</h2>
       <p>Get a free written estimate and design consultation for your remodeling project — usually within 24 hours. No obligation, no pressure.</p>
     </div>

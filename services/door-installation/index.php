@@ -13,7 +13,7 @@ $pageType    = 'service';
 $serviceSlug = 'door-installation';
 
 $pageTitle       = 'Door Installation in St. George, UT | Y-Not Handyman & Remodel';
-$pageDescription = 'Interior and exterior door installation in St. George, UT. Licensed contractor for new doors, replacements, hardware, weatherstripping. Free estimates.';
+$pageDescription = 'Interior and exterior door installation in St. George, UT. Local, owner-run contractor for new doors, replacements, hardware, weatherstripping. Free estimates.';
 $metaDescription = $pageDescription;
 $canonicalUrl    = $siteUrl . '/services/door-installation/';
 $ogImage         = $siteUrl . '/assets/images/gbp-07.jpg';
@@ -183,7 +183,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
           </a>
         </div>
         <ul class="hero-chips">
-          <li><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>Licensed &amp; insured</li>
+          <li><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>Owner-operated since 2020</li>
           <li><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/><path d="m9 16 2 2 4-4"/></svg>Interior &amp; exterior</li>
           <li><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Weatherproofed &amp; sealed</li>
         </ul>
@@ -399,7 +399,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <div class="reveal-up">
       <span class="eyebrow-label">How We Compare</span>
       <h2>How does Y-Not compare to <span class="text-accent">other door installation contractors?</span></h2>
-      <p class="answer-block">Y-Not Handyman &amp; Remodel is licensed, meticulous, and accountable — you get doors installed level and secure, weatherproofed properly, and finished cleanly, not a rushed job with gaps and binding.</p>
+      <p class="answer-block">Y-Not Handyman &amp; Remodel is local, meticulous, and accountable — you get doors installed level and secure, weatherproofed properly, and finished cleanly, not a rushed job with gaps and binding.</p>
     </div>
 
     <div class="comparison-grid reveal-up">
@@ -478,7 +478,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
   <span class="grain-layer" aria-hidden="true"></span>
   <div class="container">
     <div class="cta-copy">
-      <span class="eyebrow">Licensed &amp; Insured Since 2020</span>
+      <span class="eyebrow">Owner-operated since 2020</span>
       <h2>Let's upgrade your doors</h2>
       <p>Get a free written estimate for your door installation project — usually within 24 hours. No obligation, no pressure.</p>
     </div>

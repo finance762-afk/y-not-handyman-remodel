@@ -14,7 +14,7 @@
           <div class="footer-badges">
             <div class="trust-badge">
               <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-              Licensed & Insured
+              Owner-Operated
             </div>
             <div class="trust-badge">
               <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M2 12h20"/><circle cx="12" cy="12" r="10"/></svg>
@@ -94,7 +94,7 @@
       <meta itemprop="url" content="<?php echo $siteUrl; ?>">
       <meta itemprop="telephone" content="<?php echo $phoneRaw; ?>">
       <p>
-        <strong><?php echo htmlspecialchars($siteName); ?></strong> is a licensed and insured handyman and remodeling contractor based in <?php echo htmlspecialchars($address['city']); ?>, <?php echo htmlspecialchars($address['state']); ?>.
+        <strong><?php echo htmlspecialchars($siteName); ?></strong> is a locally owned, family-run handyman and remodeling contractor based in <?php echo htmlspecialchars($address['city']); ?>, <?php echo htmlspecialchars($address['state']); ?>.
         Since <?php echo $yearEstablished; ?>, we've been providing professional home repair, remodeling, drywall, painting, and general handyman services to homeowners throughout St. George and surrounding communities including Washington, Hurricane, Santa Clara, Ivins, and Leeds.
         Our team specializes in delivering quality craftsmanship with transparent pricing and reliable service.
         Contact us at <?php echo htmlspecialchars($phone); ?> for your free estimate.

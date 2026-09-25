@@ -6,7 +6,7 @@
 
   <!-- SEO meta tags -->
   <title><?php echo htmlspecialchars($pageTitle ?? "$siteName | $tagline"); ?></title>
-  <meta name="description" content="<?php echo htmlspecialchars($metaDescription ?? "Y-Not Handyman & Remodel provides professional handyman services and home remodeling in St. George, UT. Licensed, insured, and locally owned since 2020. Free estimates available."); ?>">
+  <meta name="description" content="<?php echo htmlspecialchars($metaDescription ?? "Y-Not Handyman & Remodel provides handyman services and home remodeling in St. George, UT. Locally and family owned since 2020. Free estimates available."); ?>">
   <?php if (isset($noindex) && $noindex): ?>
   <meta name="robots" content="noindex, nofollow">
   <?php endif; ?>
@@ -17,7 +17,7 @@
   <!-- Open Graph tags -->
   <meta property="og:type" content="<?php echo $ogType ?? 'website'; ?>">
   <meta property="og:title" content="<?php echo htmlspecialchars($ogTitle ?? $pageTitle ?? "$siteName | $tagline"); ?>">
-  <meta property="og:description" content="<?php echo htmlspecialchars($ogDescription ?? $metaDescription ?? "Y-Not Handyman & Remodel provides professional handyman services and home remodeling in St. George, UT. Licensed, insured, and locally owned since 2020."); ?>">
+  <meta property="og:description" content="<?php echo htmlspecialchars($ogDescription ?? $metaDescription ?? "Y-Not Handyman & Remodel provides professional handyman services and home remodeling in St. George, UT. Locally and family owned since 2020."); ?>">
   <meta property="og:url" content="<?php echo htmlspecialchars($canonicalUrl ?? $siteUrl); ?>">
   <meta property="og:image" content="<?php echo $ogImage ?? $siteUrl . '/assets/images/logo-mark.png'; ?>">
   <meta property="og:site_name" content="<?php echo htmlspecialchars($siteName); ?>">
