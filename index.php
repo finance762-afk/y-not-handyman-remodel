@@ -28,7 +28,7 @@ $heroPreload = [
 $faqs = [
     [
         'q' => 'How quickly can you start work?',
-        'a' => 'For routine repairs we typically schedule within 24 to 48 hours, and we keep room in the calendar for urgent issues like water damage. Once the season fills up, booking a free estimate early holds your spot.',
+        'a' => 'Call or send the form and Tony will offer the first available time. Urgent problems like water damage are fitted in as soon as the schedule allows, so it helps to book a free estimate early once the busy season starts.',
     ],
     [
         'q' => 'Do you charge for estimates?',
@@ -480,7 +480,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <div class="cta-copy">
       <span class="eyebrow">Booking Up for the Season</span>
       <h2>Put your project at the top of the list</h2>
-      <p>Our calendar fills quickly once St. George's building season hits. Lock in a free estimate today and we'll get you on the schedule — usually within the week.</p>
+      <p>Our calendar fills quickly once St. George's building season hits. Lock in a free estimate today and get your project on the schedule.</p>
     </div>
     <div class="actions">
       <button type="button" class="btn btn-accent btn-lg" data-open-estimate>Get my free estimate</button>
@@ -597,7 +597,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <ol class="next-steps">
           <li><strong>We reach out same day</strong> Tony calls or texts to talk through your project and answer questions.</li>
           <li><strong>Free on-site estimate</strong> We walk the job in person and put the scope, timeline, and price in writing.</li>
-          <li><strong>We get to work</strong> Once you approve, we schedule the job — usually within the week.</li>
+          <li><strong>We get to work</strong> Once you approve, we put the job on the schedule and confirm the date with you.</li>
         </ol>
 
         <div class="nap">
