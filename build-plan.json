@@ -543,6 +543,7 @@
     "fonts": {},
     "notes": "",
     "style": "modern",
+    "archetype": "warm-human",
     "colors": {
       "extracted_from_logo": true
     },
