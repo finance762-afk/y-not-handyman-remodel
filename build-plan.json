@@ -1,0 +1,750 @@
+{
+  "seo": {
+    "serp_context": null,
+    "target_radius": 30,
+    "primary_keyword": "handyman St. George UT",
+    "secondary_keywords": [
+      "home remodeling St. George",
+      "drywall repair St. George",
+      "remodeling contractor near me"
+    ]
+  },
+  "tier": "standard",
+  "email": "y.nothm70@gmail.com",
+  "pages": [
+    {
+      "slug": "handyman-services",
+      "type": "service",
+      "title": "Handyman Services in St. George, UT",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Handyman Services"
+      ],
+      "primary_keyword": "handyman services St. George UT"
+    },
+    {
+      "slug": "home-remodeling",
+      "type": "service",
+      "title": "Home Remodeling in St. George, UT",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Home Remodeling"
+      ],
+      "primary_keyword": "home remodeling St. George UT"
+    },
+    {
+      "slug": "drywall-repair",
+      "type": "service",
+      "title": "Drywall Repair in St. George, UT",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Drywall Repair"
+      ],
+      "primary_keyword": "drywall repair St. George UT"
+    },
+    {
+      "slug": "door-installation",
+      "type": "service",
+      "title": "Door Installation in St. George, UT",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Door Installation"
+      ],
+      "primary_keyword": "door installation St. George UT"
+    },
+    {
+      "slug": "caulking-weatherproofing",
+      "type": "service",
+      "title": "Caulking & Weatherproofing in St. George, UT",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Caulking & Weatherproofing"
+      ],
+      "primary_keyword": "caulking & weatherproofing St. George UT"
+    },
+    {
+      "slug": "interior-painting",
+      "type": "service",
+      "title": "Interior Painting in St. George, UT",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Interior Painting"
+      ],
+      "primary_keyword": "interior painting St. George UT"
+    },
+    {
+      "slug": "basic-plumbing-fixture-installation",
+      "type": "service",
+      "title": "Basic Plumbing & Fixture Installation in St. George, UT",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Basic Plumbing & Fixture Installation"
+      ],
+      "primary_keyword": "basic plumbing & fixture installation St. George UT"
+    },
+    {
+      "slug": "home-maintenance-repairs",
+      "type": "service",
+      "title": "Home Maintenance & Repairs in St. George, UT",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Home Maintenance & Repairs"
+      ],
+      "primary_keyword": "home maintenance & repairs St. George UT"
+    }
+  ],
+  "phone": "(801) 833-1588",
+  "assets": {
+    "logo": {
+      "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/gbp-photos/1bba2dff-8f4e-4f33-a77d-36178da0807c/logo.png",
+      "storage_path": null
+    },
+    "images": [
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-05.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-05.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-10.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-10.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-35.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-35.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-37.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-37.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-07.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-07.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-11.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-11.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-12.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-12.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-13.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-13.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-14.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-14.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-15.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-15.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-16.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-16.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-02.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-02.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-03.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-03.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-04.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-04.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-06.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-06.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-08.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-08.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-09.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-09.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-17.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-17.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-27.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-27.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-30.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-30.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-31.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-31.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-18.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-18.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-38.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-38.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "Y-Not Handyman & Remodel cover photo",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/main_image.webp",
+        "page": null,
+        "role": null,
+        "caption": "",
+        "context": "cover",
+        "storage_path": null,
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-19.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-19.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-22.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-22.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-34.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-34.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-39.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-39.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-20.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-20.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-33.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-33.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "Y-Not Handyman & Remodel cover photo",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/main_image.webp",
+        "page": null,
+        "role": null,
+        "caption": "",
+        "context": "cover",
+        "storage_path": null,
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-21.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-21.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-23.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-23.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-25.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-25.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-28.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-28.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-24.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-24.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-01.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-01.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-26.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-26.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "Y-Not Handyman & Remodel logo",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/logo.webp",
+        "page": null,
+        "role": null,
+        "caption": "",
+        "context": "logo",
+        "storage_path": null,
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-29.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-29.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-32.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-32.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-36.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-36.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-40.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "y-not-handyman-remodel/photos/gbp-40.jpg",
+        "quality_score": null
+      }
+    ],
+    "page_allocations": null,
+    "recommended_hero_image": {
+      "alt": "",
+      "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/y-not-handyman-remodel/processed/gbp-05.webp",
+      "context": "other",
+      "quality_score": null
+    }
+  },
+  "design": {
+    "fonts": {},
+    "notes": "",
+    "style": "modern",
+    "colors": {
+      "extracted_from_logo": true
+    },
+    "logo_analysis": {}
+  },
+  "domain": "y-not-handyman-remodel",
+  "phases": [
+    {
+      "name": "scaffold",
+      "phase": 1,
+      "status": "pending"
+    },
+    {
+      "name": "nav_footer_head",
+      "phase": 2,
+      "status": "pending"
+    },
+    {
+      "name": "homepage",
+      "phase": 3,
+      "status": "pending"
+    },
+    {
+      "name": "inner_pages",
+      "phase": 4,
+      "status": "pending"
+    },
+    {
+      "name": "seo_aeo_deploy",
+      "phase": 5,
+      "status": "pending"
+    }
+  ],
+  "address": {
+    "zip": "84770",
+    "city": "St. George",
+    "state": "UT",
+    "street": "1840 W 1100 N, Unit 12"
+  },
+  "content": {
+    "usps": [
+      "5.0-star Google rating from 11 reviews",
+      "In business since 2020",
+      "Locally owned in St. George, Utah"
+    ],
+    "years": 6,
+    "insurance": "",
+    "description": "Y-Not Handyman & Remodel is a local business serving St. George, UT and the surrounding area, in business since 2020. Services include Remodeling, Drywall Repair, Door Installation and Caulking & Weatherproofing. Contact Y-Not Handyman & Remodel at +1801-833-1588 for availability and pricing.",
+    "certifications": []
+  },
+  "reviews": [],
+  "tagline": "",
+  "industry": "handyman",
+  "services": [
+    "Handyman Services",
+    "Home Remodeling",
+    "Drywall Repair",
+    "Door Installation",
+    "Caulking & Weatherproofing",
+    "Interior Painting",
+    "Basic Plumbing & Fixture Installation",
+    "Home Maintenance & Repairs"
+  ],
+  "owner_name": "Tony Pomikala",
+  "client_slug": "y-not-handyman-remodel",
+  "form_action": "https://db.pageone.cloud/functions/v1/leads/y-not-handyman-remodel",
+  "github_repo": "",
+  "web_sources": [],
+  "company_name": "Y-Not Handyman & Remodel",
+  "integrations": {
+    "geo": null,
+    "bbb_url": null,
+    "financing": null,
+    "accepts_sms": null,
+    "gbp_place_id": "ChIJCeywCKNFyoARDSbMDhHeo8o",
+    "gbp_map_embed": null,
+    "directions_url": "https://www.google.com/maps/dir/?api=1&destination=place_id:ChIJCeywCKNFyoARDSbMDhHeo8o",
+    "elfsight_embed": null,
+    "scheduling_url": null,
+    "review_request_url": "https://search.google.com/local/writereview?placeid=ChIJCeywCKNFyoARDSbMDhHeo8o",
+    "certification_links": []
+  },
+  "service_areas": [
+    "St. George",
+    "Washington",
+    "Hurricane",
+    "Santa Clara",
+    "Ivins",
+    "Leeds"
+  ],
+  "address_public": false,
+  "business_hours": "Mon–Fri 9:00 AM–5:00 PM",
+  "image_curation": null,
+  "research_brief": {
+    "gbp": null,
+    "brief": {
+      "faqs": [
+        {
+          "a": "Yes. We are fully licensed, bonded, and carry comprehensive liability insurance plus workers' compensation coverage on all projects.",
+          "q": "Are you licensed and insured?"
+        },
+        {
+          "a": "For routine repairs, we typically schedule within 24-48 hours. We also offer same-day emergency services for urgent issues like water damage or electrical problems.",
+          "q": "How quickly can you start work?"
+        },
+        {
+          "a": "No. We provide free, detailed estimates with no obligation. We'll explain the scope, timeline, and costs upfront before any work begins.",
+          "q": "Do you charge for estimates?"
+        },
+        {
+          "a": "Everything from small repairs (drywall, painting, fixtures) to major projects (kitchen/bath remodels, additions, decks, and general contracting).",
+          "q": "What types of projects do you handle?"
+        },
+        {
+          "a": "We guarantee your satisfaction. If you're unhappy with our work, we'll return and make it right—no excuses.",
+          "q": "What's your guarantee or warranty?"
+        }
+      ],
+      "about_angle": "Lead with local ownership and community commitment. Share the founder's background and why they started the business (solving their own frustrations with unreliable contractors, perhaps). Emphasize treating every customer's home with the same care as their own. Highlight the team's diverse expertise and genuine passion for helping St. George homeowners.",
+      "hero_headline": "Trusted Handyman & Remodeling Services for St. George Homes",
+      "differentiators": [
+        "Locally-owned and operated with deep community roots in St. George",
+        "Fully licensed, bonded, and insured across all service categories",
+        "Transparent, upfront pricing with no hidden fees or surprise charges",
+        "Fast response times with 24-hour emergency repair availability",
+        "Comprehensive service range from minor repairs to full remodels",
+        "Workmanship warranty and satisfaction guarantee on all projects"
+      ],
+      "hero_subheadline": "Expert repairs and renovations you can count on—from quick fixes to complete remodels, delivered with quality craftsmanship and honest pricing.",
+      "tone_recommendation": "Friendly and approachable, yet professional and authoritative. Strike a balance between personable local warmth and clear technical competence. Customers should feel like they're hiring a trusted neighbor who genuinely knows their trade. Avoid overly casual language, but don't be stiff or corporate."
+    },
+    "competitors": [],
+    "generated_at": "2026-09-25T20:48:15.527Z",
+    "existing_site": null
+  },
+  "competitor_urls": [],
+  "phone_secondary": "",
+  "service_grouping": {
+    "cap": 8,
+    "tier": "standard",
+    "groups": [
+      {
+        "page": "Handyman Services",
+        "solo": true,
+        "services": [
+          "Handyman Services"
+        ]
+      },
+      {
+        "page": "Home Remodeling",
+        "solo": true,
+        "services": [
+          "Home Remodeling"
+        ]
+      },
+      {
+        "page": "Drywall Repair",
+        "solo": true,
+        "services": [
+          "Drywall Repair"
+        ]
+      },
+      {
+        "page": "Door Installation",
+        "solo": true,
+        "services": [
+          "Door Installation"
+        ]
+      },
+      {
+        "page": "Caulking & Weatherproofing",
+        "solo": true,
+        "services": [
+          "Caulking & Weatherproofing"
+        ]
+      },
+      {
+        "page": "Interior Painting",
+        "solo": true,
+        "services": [
+          "Interior Painting"
+        ]
+      },
+      {
+        "page": "Basic Plumbing & Fixture Installation",
+        "solo": true,
+        "services": [
+          "Basic Plumbing & Fixture Installation"
+        ]
+      },
+      {
+        "page": "Home Maintenance & Repairs",
+        "solo": true,
+        "services": [
+          "Home Maintenance & Repairs"
+        ]
+      }
+    ],
+    "grouped_count": 8,
+    "original_count": 8
+  },
+  "lead_notification_email": "y.nothm70@gmail.com",
+  "lead_notification_phone": "+1801-833-1588",
+  "google_business_profile_url": "https://www.google.com/maps/place/?q=place_id:ChIJCeywCKNFyoARDSbMDhHeo8o"
+}
