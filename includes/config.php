@@ -133,7 +133,7 @@ $usps = [
 $differentiators = [
     'Locally-owned and operated with deep community roots in St. George',
     'Transparent, upfront pricing with no hidden fees or surprise charges',
-    'Fast response times with 24-hour emergency repair availability',
+    'Prompt scheduling and clear communication',
     'Comprehensive service range from minor repairs to full remodels',
 ];
 

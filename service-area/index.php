@@ -94,7 +94,6 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
           Our home base. Serving historic downtown, Entrada, Stone Cliff, Bloomington Hills, and every St. George neighborhood with fast response times and local expertise. From century-old homes in the downtown historic district to newer developments in the Red Cliffs area, we understand St. George's unique housing landscape.
         </p>
         <ul class="area-card__features">
-          <li>Same-day emergency service available</li>
           <li>Familiar with local building codes</li>
           <li>Expert in both historic and modern homes</li>
         </ul>
@@ -233,7 +232,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
           <svg aria-hidden="true" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="10"/></svg>
         </div>
         <h3>Faster Response Times</h3>
-        <p>Being local means we can typically schedule you within 24-48 hours, and same-day emergency service is often available for urgent repairs.</p>
+        <p>Being local means short drive times and quick turnaround on estimates, and urgent repairs are fitted in as soon as the schedule allows.</p>
       </div>
 
       <div class="why-local-item">

@@ -356,7 +356,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
           <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
         </div>
         <h3>Fast Response</h3>
-        <p>We typically schedule routine repairs within 24-48 hours and offer same-day emergency service for urgent issues. When you need help, we're there.</p>
+        <p>Tony returns calls quickly and fits urgent problems in as soon as the schedule allows. When you need help, we're there.</p>
       </div>
 
       <div class="value-card">

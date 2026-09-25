@@ -480,7 +480,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <div class="cta-copy">
       <span class="eyebrow">Owner-operated since 2020</span>
       <h2>Let's upgrade your doors</h2>
-      <p>Get a free written estimate for your door installation project — usually within 24 hours. No obligation, no pressure.</p>
+      <p>Get a free written estimate for your door installation project — usually within a day or two. No obligation, no pressure.</p>
     </div>
     <div class="actions">
       <button type="button" class="btn btn-accent btn-lg" data-open-estimate>Get my free estimate</button>
