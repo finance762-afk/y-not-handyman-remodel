@@ -7,7 +7,7 @@
       <div class="footer-grid">
         <!-- Column 1: Logo & About -->
         <div class="footer-col footer-about">
-          <img src="/assets/images/logo-mark.png" alt="<?php echo htmlspecialchars($siteName); ?> logo" class="footer-logo" width="80" height="56">
+          <picture><source type="image/webp" srcset="/assets/images/logo-mark-v2.webp"><img src="/assets/images/logo-mark-v2.png" alt="<?php echo htmlspecialchars($siteName); ?> logo" class="footer-logo" width="108" height="84" loading="lazy" decoding="async"></picture>
           <p class="footer-tagline"><?php echo htmlspecialchars($tagline); ?></p>
           <p class="footer-description">Locally owned and operated handyman and remodeling contractor serving St. George and surrounding communities since 2020.</p>
 
@@ -32,7 +32,7 @@
           <h3 class="footer-heading">Our Services</h3>
           <ul class="footer-links">
             <?php
-            $footerServices = array_slice($services, 0, 5);
+            $footerServices = array_slice(array_values(array_filter($services, function ($fs) { return servicePageExists($fs['slug']); })), 0, 5);
             foreach ($footerServices as $footSvc):
             ?>
             <li><a href="/services/<?php echo htmlspecialchars($footSvc['slug']); ?>/"><?php echo htmlspecialchars($footSvc['name']); ?></a></li>

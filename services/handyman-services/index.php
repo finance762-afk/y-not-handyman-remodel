@@ -16,7 +16,7 @@ $pageTitle       = 'Handyman Services in St. George, UT | Y-Not Handyman & Remod
 $pageDescription = 'Handyman services in St. George, UT. Repairs to punch lists — drywall, painting, faucets, doors. Locally owned since 2020, free estimates. (801) 833-1588.';
 $metaDescription = $pageDescription;
 $canonicalUrl    = $siteUrl . '/services/handyman-services/';
-$ogImage         = $siteUrl . '/assets/images/gbp-12.jpg';
+$ogImage         = $siteUrl . '/assets/images/job-entry-steps-finished.jpg';
 
 /* Service data for schema */
 $currentService = getServiceBySlug($serviceSlug);
@@ -101,7 +101,7 @@ $schemaMarkup = generateGraphSchema([$serviceSchema, $breadcrumbSchema, $faqSche
 
 /* Hero preload */
 $heroPreload = [
-    'srcset' => '/assets/images/gbp-12-480.avif 480w, /assets/images/gbp-12-960.avif 960w',
+    'srcset' => '/assets/images/job-entry-steps-finished-480.avif 480w, /assets/images/job-entry-steps-finished-960.avif 960w',
     'sizes'  => '(max-width: 900px) 100vw, 50vw',
 ];
 
@@ -255,8 +255,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <div class="expert-grid">
       <div class="reveal-left">
         <picture>
-          <source type="image/avif" srcset="/assets/images/gbp-05-480.avif 480w, /assets/images/gbp-05-960.avif 960w" sizes="(max-width: 900px) 100vw, 45vw">
-          <img src="/assets/images/gbp-05.jpg" srcset="/assets/images/gbp-05-480.webp 480w, /assets/images/gbp-05-960.webp 960w" sizes="(max-width: 900px) 100vw, 45vw" alt="Smoothly finished and repainted interior wall" width="1500" height="2000" loading="lazy" decoding="async">
+          <source type="image/avif" srcset="/assets/images/job-entry-steps-finished-480.avif 480w, /assets/images/job-entry-steps-finished-960.avif 960w" sizes="(max-width: 900px) 100vw, 45vw">
+          <img src="/assets/images/job-entry-steps-finished.jpg" srcset="/assets/images/job-entry-steps-finished-480.webp 480w, /assets/images/job-entry-steps-finished-960.webp 960w" sizes="(max-width: 900px) 100vw, 45vw" alt="Rebuilt entry steps with gray composite treads and a new landing at a home's side door" width="1500" height="2000" loading="lazy" decoding="async">
         </picture>
       </div>
 

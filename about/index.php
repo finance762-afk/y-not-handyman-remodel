@@ -14,7 +14,7 @@ $pageTitle       = 'About Us | Y-Not Handyman & Remodel | St. George, UT';
 $pageDescription = 'Meet Y-Not Handyman & Remodel, a locally owned, owner-operated handyman and remodeling contractor serving St. George since 2020. Trusted by local homeowners.';
 $metaDescription = $pageDescription;
 $canonicalUrl    = $siteUrl . '/about/';
-$ogImage         = $siteUrl . '/assets/images/gbp-05.jpg';
+$ogImage         = $siteUrl . '/assets/images/job-kitchen-cabinets-doors.jpg';
 
 // BreadcrumbList schema
 $breadcrumbs = [
@@ -307,8 +307,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <div class="story-grid">
       <div class="story-image">
         <picture>
-          <source type="image/avif" srcset="/assets/images/gbp-05-480.avif 480w, /assets/images/gbp-05-960.avif 960w" sizes="(max-width: 900px) 100vw, 50vw">
-          <img src="/assets/images/gbp-05.jpg" srcset="/assets/images/gbp-05-480.webp 480w, /assets/images/gbp-05-960.webp 960w" sizes="(max-width: 900px) 100vw, 50vw" alt="Professional handyman work on a St. George home interior" width="800" height="600" loading="lazy">
+          <source type="image/avif" srcset="/assets/images/job-kitchen-cabinets-doors-480.avif 480w, /assets/images/job-kitchen-cabinets-doors-960.avif 960w" sizes="(max-width: 900px) 100vw, 50vw">
+          <img src="/assets/images/job-kitchen-cabinets-doors.jpg" srcset="/assets/images/job-kitchen-cabinets-doors-480.webp 480w, /assets/images/job-kitchen-cabinets-doors-960.webp 960w" sizes="(max-width: 900px) 100vw, 50vw" alt="Kitchen remodel in progress with new white cabinets, pantry towers and island being installed" width="2000" height="1500" loading="lazy">
         </picture>
       </div>
       <div class="story-content">

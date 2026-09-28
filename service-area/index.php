@@ -21,7 +21,7 @@ $schemaMarkup = $breadcrumbSchema;
 
 /* ---- Hero Image Preload -------------------------------------------------- */
 $heroPreload = [
-    'srcset' => '/assets/images/gbp-05-480.avif 480w, /assets/images/gbp-05-960.avif 960w, /assets/images/gbp-05-1600.avif 1600w',
+    'srcset' => '/assets/images/job-kitchen-cabinets-install-480.avif 480w, /assets/images/job-kitchen-cabinets-install-960.avif 960w, /assets/images/job-kitchen-cabinets-install-1600.avif 1600w',
     'sizes'  => '100vw',
 ];
 
@@ -35,19 +35,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
   <picture>
     <source
       type="image/avif"
-      srcset="/assets/images/gbp-05-480.avif 480w,
-              /assets/images/gbp-05-960.avif 960w,
-              /assets/images/gbp-05-1600.avif 1600w"
+      srcset="/assets/images/job-kitchen-cabinets-install-480.avif 480w,
+              /assets/images/job-kitchen-cabinets-install-960.avif 960w,
+              /assets/images/job-kitchen-cabinets-install-1600.avif 1600w"
       sizes="100vw">
     <img
-      src="/assets/images/gbp-05.jpg"
-      srcset="/assets/images/gbp-05-480.webp 480w,
-              /assets/images/gbp-05-960.webp 960w,
-              /assets/images/gbp-05-1600.webp 1600w"
+      src="/assets/images/job-kitchen-cabinets-install.jpg"
+      srcset="/assets/images/job-kitchen-cabinets-install-480.webp 480w,
+              /assets/images/job-kitchen-cabinets-install-960.webp 960w,
+              /assets/images/job-kitchen-cabinets-install-1600.webp 1600w"
       sizes="100vw"
-      alt="Professional handyman services throughout St. George and Washington County"
-      width="1600"
-      height="900"
+      alt="New white cabinets and island going into a kitchen remodel by Y-Not Handyman &amp; Remodel in Washington County"
+      width="2000"
+      height="1500"
       loading="eager"
       fetchpriority="high">
   </picture>

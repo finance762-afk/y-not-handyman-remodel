@@ -14,7 +14,7 @@ $pageTitle       = 'Handyman & Remodeling Services in St. George, UT | Y-Not Han
 $pageDescription = 'Handyman and remodeling services in St. George, UT — drywall, painting, doors, faucets, repairs to full remodels. Locally owned since 2020. Free estimates.';
 $metaDescription = $pageDescription;
 $canonicalUrl    = $siteUrl . '/services/';
-$ogImage         = $siteUrl . '/assets/images/gbp-35.jpg';
+$ogImage         = $siteUrl . '/assets/images/job-kitchen-finished.jpg';
 
 /* Breadcrumb schema */
 $breadcrumbs = [
@@ -27,57 +27,57 @@ $schemaMarkup = generateBreadcrumbSchema($breadcrumbs);
 $servicesDisplay = [
     [
         'slug' => 'handyman-services', 'name' => 'Handyman Services',
-        'photo' => 'gbp-12', 'icon' => 'wrench',
-        'alt'  => 'Living room with a freshly painted accent wall and handyman tools on the table',
+        'photo' => 'job-entry-steps-before', 'icon' => 'wrench',
+        'alt'  => 'Old wooden entry step frame being removed before new steps are built',
         'desc' => 'One call for the odd jobs and small fixes stacking up around your home.',
         'bullets' => ['Hourly or per-project rates', 'Punch lists welcome', 'Most jobs in one visit'],
     ],
     [
         'slug' => 'home-remodeling', 'name' => 'Home Remodeling',
-        'photo' => 'gbp-35', 'icon' => 'hammer',
-        'alt'  => 'Newly installed composite deck boards and railing on a St. George home',
+        'photo' => 'job-kitchen-finished', 'icon' => 'hammer',
+        'alt'  => 'Remodeled kitchen with white shaker cabinets, a new island and wood-look plank flooring',
         'desc' => 'Kitchen, bath, deck and whole-room updates built to hold up for years.',
         'bullets' => ['Kitchens & bathrooms', 'Decks & outdoor living', 'Written, itemized quotes'],
     ],
     [
         'slug' => 'drywall-repair', 'name' => 'Drywall Repair',
-        'photo' => 'gbp-05', 'icon' => 'layers',
-        'alt'  => 'Smoothly finished and repainted interior wall with clean baseboard lines',
+        'photo' => 'job-office-drywall-hung', 'icon' => 'layers',
+        'alt'  => 'Freshly hung drywall on a new interior wall and doorway before taping',
         'desc' => 'Holes, cracks and water damage patched and textured to disappear.',
         'bullets' => ['Texture matching', 'Paint-ready finish', 'Nail-pop & crack repair'],
     ],
     [
         'slug' => 'door-installation', 'name' => 'Door Installation',
-        'photo' => 'gbp-07', 'icon' => 'home',
-        'alt'  => 'Interior doorway and closet opening with fresh paint and trim',
+        'photo' => 'job-office-door', 'icon' => 'home',
+        'alt'  => 'New interior door in a freshly built and painted wall',
         'desc' => 'Interior and exterior doors hung square, sealed and swinging true.',
         'bullets' => ['Interior & exterior doors', 'Hardware & locksets', 'Weather-tight fit'],
     ],
     [
         'slug' => 'caulking-weatherproofing', 'name' => 'Caulking & Weatherproofing',
-        'photo' => 'gbp-37', 'icon' => 'shield-check',
-        'alt'  => 'Composite deck steps and railing sealed against the elements',
+        'photo' => 'job-backsplash', 'icon' => 'shield-check',
+        'alt'  => 'Patterned tile backsplash finished cleanly along a stone countertop and sink',
         'desc' => 'Sealing the gaps that let desert heat, dust and water into your home.',
         'bullets' => ['Window & door sealing', 'Exterior trim caulking', 'Lower cooling bills'],
     ],
     [
         'slug' => 'interior-painting', 'name' => 'Interior Painting',
-        'photo' => 'gbp-11', 'icon' => 'paint-bucket',
-        'alt'  => 'Bedroom masked and prepped for a full interior repaint',
+        'photo' => 'job-sim-bay-finished', 'icon' => 'paint-bucket',
+        'alt'  => 'Simulator bay enclosure with freshly painted gray walls and a dark interior',
         'desc' => 'Clean lines and even coats for a single room or the whole interior.',
         'bullets' => ['Walls, trim & ceilings', 'Careful prep & masking', 'Tidy daily cleanup'],
     ],
     [
         'slug' => 'basic-plumbing-fixture-installation', 'name' => 'Basic Plumbing & Fixture Installation',
-        'photo' => 'gbp-13', 'icon' => 'droplets',
-        'alt'  => 'Bedroom refresh with a new window and fixtures installed',
+        'photo' => 'job-bath-vanity-progress', 'icon' => 'droplets',
+        'alt'  => 'Bathroom remodel in progress with a new white vanity, tiled floor and tub surround',
         'desc' => 'Faucets, toilets and fixtures swapped without the full plumber\'s bill.',
         'bullets' => ['Faucet & sink swaps', 'Toilet & fixture installs', 'Leak & drip fixes'],
     ],
     [
         'slug' => 'home-maintenance-repairs', 'name' => 'Home Maintenance & Repairs',
-        'photo' => 'gbp-10', 'icon' => 'clipboard-list',
-        'alt'  => 'Repainted window casing and wall during a home maintenance visit',
+        'photo' => 'job-primary-bath-arch-mudded', 'icon' => 'clipboard-list',
+        'alt'  => 'Arched doorway with fresh drywall mud during a primary bathroom renovation',
         'desc' => 'The recurring upkeep that keeps small issues from becoming big ones.',
         'bullets' => ['Seasonal checkups', 'Honey-do list clearing', 'Rental turnovers'],
     ],
@@ -164,7 +164,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
             <li><?php echo htmlspecialchars($b); ?></li>
             <?php endforeach; ?>
           </ul>
+          <?php if (servicePageExists($svc['slug'])): ?>
           <a href="/services/<?php echo htmlspecialchars($svc['slug']); ?>/" class="service-card__cta">Learn more</a>
+          <?php else: ?>
+          <a href="/contact/" class="service-card__cta">Ask about this</a>
+          <?php endif; ?>
         </div>
       </article>
       <?php endforeach; ?>

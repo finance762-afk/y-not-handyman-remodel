@@ -8,6 +8,7 @@
  */
 
 require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/config.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 
 // Set XML header
 header('Content-Type: application/xml; charset=utf-8');
@@ -38,7 +39,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
   </url>
 
   <!-- Individual service pages (built from config.php $services array) -->
-  <?php foreach ($services as $service): ?>
+  <?php foreach ($services as $service): if (!servicePageExists($service['slug'])) continue; ?>
   <url>
     <loc><?php echo $siteUrl; ?>/services/<?php echo $service['slug']; ?>/</loc>
     <lastmod><?php echo $now; ?></lastmod>

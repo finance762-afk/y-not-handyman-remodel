@@ -16,11 +16,11 @@ $pageDescription = 'Y-Not Handyman & Remodel: family-owned handyman and remodeli
 $metaDescription = $pageDescription; // Alias for backwards compatibility
 $canonicalUrl    = $siteUrl . '/';
 $ogType          = 'website';
-$ogImage         = $siteUrl . '/assets/images/gbp-05.jpg';
+$ogImage         = $siteUrl . '/assets/images/job-kitchen-finished.jpg';
 
 /* Hero image preload (LCP) — only 480/960 AVIF variants exist on disk */
 $heroPreload = [
-    'srcset' => '/assets/images/gbp-05-480.avif 480w, /assets/images/gbp-05-960.avif 960w',
+    'srcset' => '/assets/images/job-kitchen-finished-480.avif 480w, /assets/images/job-kitchen-finished-960.avif 960w',
     'sizes'  => '(max-width: 900px) 100vw, 560px',
 ];
 
@@ -47,76 +47,76 @@ $faqs = [
 $schemaMarkup = generateFAQSchema($faqs);
 
 /* Home services overview cards — photo, inline icon, copy (3 bullets each).
-   Photos limited to the 8 manifest photos that have -480/-960 responsive variants. */
+   Photos: client job-photo batch of 28 Sep 2026 (-480/-960 webp+avif variants). */
 $homeServices = [
     [
         'slug' => 'handyman-services', 'name' => 'Handyman Services',
-        'photo' => 'gbp-12', 'icon' => 'wrench',
-        'alt'  => 'Living room with a freshly painted accent wall and handyman tools on the table',
+        'photo' => 'job-entry-steps-finished', 'icon' => 'wrench',
+        'alt'  => 'Rebuilt entry steps with gray composite treads at a home\'s side door',
         'desc' => 'One call for the odd jobs and small fixes stacking up around your home.',
         'bullets' => ['Hourly or per-project rates', 'Punch lists welcome', 'Most jobs in one visit'],
     ],
     [
         'slug' => 'home-remodeling', 'name' => 'Home Remodeling',
-        'photo' => 'gbp-35', 'icon' => 'hammer',
-        'alt'  => 'Newly installed composite deck boards and railing on a St. George home',
+        'photo' => 'job-kitchen-finished-2', 'icon' => 'hammer',
+        'alt'  => 'Remodeled galley kitchen with white cabinets, black farmhouse sink and new plank flooring',
         'desc' => 'Kitchen, bath, deck and whole-room updates built to hold up for years.',
         'bullets' => ['Kitchens & bathrooms', 'Decks & outdoor living', 'Written, itemized quotes'],
     ],
     [
         'slug' => 'drywall-repair', 'name' => 'Drywall Repair',
-        'photo' => 'gbp-05', 'icon' => 'layers',
-        'alt'  => 'Smoothly finished and repainted interior wall with clean baseboard lines',
+        'photo' => 'job-office-drywall-mud', 'icon' => 'layers',
+        'alt'  => 'New drywall walls taped and mudded around a doorway, ready for sanding',
         'desc' => 'Holes, cracks and water damage patched and textured to disappear.',
         'bullets' => ['Texture matching', 'Paint-ready finish', 'Nail-pop & crack repair'],
     ],
     [
         'slug' => 'door-installation', 'name' => 'Door Installation',
-        'photo' => 'gbp-07', 'icon' => 'home',
-        'alt'  => 'Interior doorway and closet opening with fresh paint and trim',
+        'photo' => 'job-office-door', 'icon' => 'home',
+        'alt'  => 'New interior door in a freshly built and painted wall',
         'desc' => 'Interior and exterior doors hung square, sealed and swinging true.',
         'bullets' => ['Interior & exterior doors', 'Hardware & locksets', 'Weather-tight fit'],
     ],
     [
         'slug' => 'caulking-weatherproofing', 'name' => 'Caulking & Weatherproofing',
-        'photo' => 'gbp-37', 'icon' => 'shield-check',
-        'alt'  => 'Composite deck steps and railing sealed against the elements',
+        'photo' => 'job-backsplash', 'icon' => 'shield-check',
+        'alt'  => 'Patterned tile backsplash finished cleanly along a stone countertop and sink',
         'desc' => 'Sealing the gaps that let desert heat, dust and water into your home.',
         'bullets' => ['Window & door sealing', 'Exterior trim caulking', 'Lower cooling bills'],
     ],
     [
         'slug' => 'interior-painting', 'name' => 'Interior Painting',
-        'photo' => 'gbp-11', 'icon' => 'paint-bucket',
-        'alt'  => 'Bedroom masked and prepped for a full interior repaint',
+        'photo' => 'job-office-finished', 'icon' => 'paint-bucket',
+        'alt'  => 'Newly built wall painted gray with a wood interior door and clean baseboards',
         'desc' => 'Clean lines and even coats for a single room or the whole interior.',
         'bullets' => ['Walls, trim & ceilings', 'Careful prep & masking', 'Tidy daily cleanup'],
     ],
     [
         'slug' => 'basic-plumbing-fixture-installation', 'name' => 'Basic Plumbing & Fixture Installation',
-        'photo' => 'gbp-13', 'icon' => 'droplets',
-        'alt'  => 'Bedroom refresh with a new window and fixtures installed',
+        'photo' => 'job-bath-finished', 'icon' => 'droplets',
+        'alt'  => 'Finished bathroom with new vanity, matte-black faucet, toilet and tiled tub surround',
         'desc' => 'Faucets, toilets and fixtures swapped without the full plumber\'s bill.',
         'bullets' => ['Faucet & sink swaps', 'Toilet & fixture installs', 'Leak & drip fixes'],
     ],
     [
         'slug' => 'home-maintenance-repairs', 'name' => 'Home Maintenance & Repairs',
-        'photo' => 'gbp-10', 'icon' => 'clipboard-list',
-        'alt'  => 'Repainted window casing and wall during a home maintenance visit',
+        'photo' => 'job-primary-bath-arch', 'icon' => 'clipboard-list',
+        'alt'  => 'Arched doorway patched and prepped during a primary bathroom renovation',
         'desc' => 'The recurring upkeep that keeps small issues from becoming big ones.',
         'bullets' => ['Seasonal checkups', 'Honey-do list clearing', 'Rental turnovers'],
     ],
 ];
 
-/* Recent-work gallery — 8 client photos with variants (wide = every 3rd) */
+/* Recent-work gallery — 8 client job photos (wide = landscape shots) */
 $galleryItems = [
-    ['img' => 'gbp-35', 'wide' => true,  'tag' => 'Decks & Carpentry',  'alt' => 'New composite deck boards and white railing on a St. George porch',   'cap' => 'New composite deck boards and railing'],
-    ['img' => 'gbp-05', 'wide' => false, 'tag' => 'Interior Painting',  'alt' => 'Repainted interior walls with crisp baseboard lines',                  'cap' => 'Repainted walls, crisp baseboard lines'],
-    ['img' => 'gbp-12', 'wide' => false, 'tag' => 'Painting',           'alt' => 'Living-room accent wall cut in by hand around a ceiling fan',          'cap' => 'Living-room accent wall, cut by hand'],
-    ['img' => 'gbp-07', 'wide' => true,  'tag' => 'Doors & Trim',       'alt' => 'Fresh paint and trim around an interior closet doorway',              'cap' => 'Fresh paint around a closet doorway'],
-    ['img' => 'gbp-37', 'wide' => false, 'tag' => 'Remodeling',         'alt' => 'Composite deck steps and landing rebuilt with new decking',           'cap' => 'Composite steps and landing rebuilt'],
-    ['img' => 'gbp-10', 'wide' => false, 'tag' => 'Window Trim',        'alt' => 'Repainted window casing and surrounding wall',                        'cap' => 'Repainted window casing and wall'],
-    ['img' => 'gbp-13', 'wide' => true,  'tag' => 'Maintenance',        'alt' => 'Bedroom refreshed with a new window installed and walls repainted',   'cap' => 'Bedroom refresh with new window in place'],
-    ['img' => 'gbp-11', 'wide' => false, 'tag' => 'Painting Prep',      'alt' => 'Bedroom masked and prepped for a full repaint',                       'cap' => 'Room masked and prepped for repaint'],
+    ['img' => 'job-kitchen-cabinets-install', 'wide' => true , 'w' => 2000, 'h' => 1500, 'tag' => 'Kitchen Remodel', 'alt' => 'New white shaker cabinets and island boxes set in place during a St. George kitchen remodel', 'cap' => 'New cabinets and island going in'],
+    ['img' => 'job-bath-tile-progress', 'wide' => false, 'w' => 1500, 'h' => 2000, 'tag' => 'Bathroom Remodel', 'alt' => 'Bathroom with new marble-look floor tile and tiled tub surround before the vanity goes in', 'cap' => 'New floor tile and tub surround'],
+    ['img' => 'job-garage-framing', 'wide' => false, 'w' => 1500, 'h' => 2000, 'tag' => 'Framing', 'alt' => 'Wood stud walls framed from scratch inside a garage for a golf simulator room', 'cap' => 'Golf simulator room framed from scratch'],
+    ['img' => 'job-sim-bay-finished', 'wide' => true , 'w' => 2000, 'h' => 1500, 'tag' => 'Framing & Drywall', 'alt' => 'Finished simulator bay enclosure with gray painted walls and a dark interior', 'cap' => 'Simulator bay, framed, drywalled and painted'],
+    ['img' => 'job-office-framing', 'wide' => false, 'w' => 1500, 'h' => 2000, 'tag' => 'Wall Build', 'alt' => 'Metal stud framing for a new interior wall and doorway in a commercial space', 'cap' => 'New wall framed with metal studs'],
+    ['img' => 'job-kitchen-new-floor', 'wide' => false, 'w' => 1500, 'h' => 2000, 'tag' => 'Flooring', 'alt' => 'Wood-look plank flooring installed through a bright dining nook', 'cap' => 'New plank flooring in the dining nook'],
+    ['img' => 'job-sim-bay-drywall', 'wide' => true , 'w' => 2000, 'h' => 1500, 'tag' => 'Drywall', 'alt' => 'Simulator bay enclosure hung with drywall and first coat of mud on the seams', 'cap' => 'Drywall hung and first coat on'],
+    ['img' => 'job-entry-steps-before', 'wide' => false, 'w' => 1500, 'h' => 2000, 'tag' => 'Entry Steps', 'alt' => 'Worn wooden entry step frame being torn out before new steps were built', 'cap' => 'Old entry steps coming out'],
 ];
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
@@ -236,13 +236,13 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <div class="hero-visual">
         <div class="hero-visual__img">
           <picture>
-            <source type="image/avif" srcset="/assets/images/gbp-05-480.avif 480w, /assets/images/gbp-05-960.avif 960w" sizes="(max-width: 900px) 100vw, 560px">
-            <img src="/assets/images/gbp-05.jpg" srcset="/assets/images/gbp-05-480.webp 480w, /assets/images/gbp-05-960.webp 960w" sizes="(max-width: 900px) 100vw, 560px" alt="Freshly repainted interior room with clean baseboard lines by Y-Not Handyman &amp; Remodel" width="1500" height="2000" loading="eager" fetchpriority="high">
+            <source type="image/avif" srcset="/assets/images/job-kitchen-finished-480.avif 480w, /assets/images/job-kitchen-finished-960.avif 960w" sizes="(max-width: 900px) 100vw, 560px">
+            <img src="/assets/images/job-kitchen-finished.jpg" srcset="/assets/images/job-kitchen-finished-480.webp 480w, /assets/images/job-kitchen-finished-960.webp 960w" sizes="(max-width: 900px) 100vw, 560px" alt="Remodeled kitchen by Y-Not Handyman &amp; Remodel with white shaker cabinets, a new island and wood-look plank flooring" width="1500" height="2000" loading="eager" fetchpriority="high">
           </picture>
         </div>
         <div class="photo-stack__tag">
           <b>Recent work</b>
-          <span>Interior repaint &amp; trim</span>
+          <span>Kitchen remodel, St. George</span>
         </div>
 
         <aside class="hero-form-card" id="estimate-form">
@@ -346,7 +346,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <figure class="gallery-item<?php echo $g['wide'] ? ' gallery-item--wide' : ''; ?>">
         <picture>
           <source type="image/avif" srcset="/assets/images/<?php echo $g['img']; ?>-480.avif 480w, /assets/images/<?php echo $g['img']; ?>-960.avif 960w" sizes="(max-width: 600px) 80vw, <?php echo $g['wide'] ? '460px' : '300px'; ?>">
-          <img src="/assets/images/<?php echo $g['img']; ?>.jpg" srcset="/assets/images/<?php echo $g['img']; ?>-480.webp 480w, /assets/images/<?php echo $g['img']; ?>-960.webp 960w" sizes="(max-width: 600px) 80vw, <?php echo $g['wide'] ? '460px' : '300px'; ?>" alt="<?php echo htmlspecialchars($g['alt']); ?>" width="1500" height="2000" loading="lazy" decoding="async">
+          <img src="/assets/images/<?php echo $g['img']; ?>.jpg" srcset="/assets/images/<?php echo $g['img']; ?>-480.webp 480w, /assets/images/<?php echo $g['img']; ?>-960.webp 960w" sizes="(max-width: 600px) 80vw, <?php echo $g['wide'] ? '460px' : '300px'; ?>" alt="<?php echo htmlspecialchars($g['alt']); ?>" width="<?php echo $g['w']; ?>" height="<?php echo $g['h']; ?>" loading="lazy" decoding="async">
         </picture>
         <figcaption>
           <span class="gallery-item__tag"><?php echo htmlspecialchars($g['tag']); ?></span>
@@ -409,7 +409,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
             <li><?php echo htmlspecialchars($b); ?></li>
             <?php endforeach; ?>
           </ul>
+          <?php if (servicePageExists($svc['slug'])): ?>
           <a href="/services/<?php echo htmlspecialchars($svc['slug']); ?>/" class="service-card__cta">Learn more</a>
+          <?php else: ?>
+          <a href="/contact/" class="service-card__cta">Ask about this</a>
+          <?php endif; ?>
         </div>
       </article>
       <?php endforeach; ?>
@@ -459,8 +463,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <div class="about-right">
         <div class="about-image about-image-primary frame__img">
           <picture>
-            <source type="image/avif" srcset="/assets/images/gbp-35-480.avif 480w, /assets/images/gbp-35-960.avif 960w" sizes="(max-width: 900px) 100vw, 460px">
-            <img src="/assets/images/gbp-35.jpg" srcset="/assets/images/gbp-35-480.webp 480w, /assets/images/gbp-35-960.webp 960w" sizes="(max-width: 900px) 100vw, 460px" alt="Owner-built composite deck with new boards and railing on a St. George home" width="1500" height="2000" loading="lazy" decoding="async">
+            <source type="image/avif" srcset="/assets/images/job-sim-bay-framing-480.avif 480w, /assets/images/job-sim-bay-framing-960.avif 960w" sizes="(max-width: 900px) 100vw, 460px">
+            <img src="/assets/images/job-sim-bay-framing.jpg" srcset="/assets/images/job-sim-bay-framing-480.webp 480w, /assets/images/job-sim-bay-framing-960.webp 960w" sizes="(max-width: 900px) 100vw, 460px" alt="New wood-framed walls and engineered-joist ceiling for a simulator bay, framed by Y-Not Handyman &amp; Remodel" width="1500" height="2000" loading="lazy" decoding="async">
           </picture>
         </div>
         <div class="about-stat-card">

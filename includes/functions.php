@@ -217,6 +217,16 @@ function areaPageExists($slug) {
 }
 
 /**
+ * Check if a service page exists (links to unbuilt service pages are gated)
+ *
+ * @param string $slug Service slug
+ * @return bool True if page exists
+ */
+function servicePageExists($slug) {
+    return is_file($_SERVER['DOCUMENT_ROOT'] . '/services/' . $slug . '/index.php');
+}
+
+/**
  * Generate @graph schema wrapper for multiple schema types
  *
  * @param array $schemas Array of schema objects

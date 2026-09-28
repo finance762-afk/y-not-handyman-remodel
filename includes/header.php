@@ -5,7 +5,7 @@
 <header class="site-header" data-header>
   <nav class="navbar navbar-inner container-wide" aria-label="Main navigation">
     <a href="/" class="logo-link" aria-label="<?php echo htmlspecialchars($siteName); ?> Home">
-      <img src="/assets/images/logo-mark.png" alt="<?php echo htmlspecialchars($siteName); ?> logo" class="site-logo logo--square" width="96" height="96">
+      <picture><source type="image/webp" srcset="/assets/images/logo-mark-v2.webp"><img src="/assets/images/logo-mark-v2.png" alt="<?php echo htmlspecialchars($siteName); ?> logo" class="site-logo logo--combo" width="100" height="78"></picture>
     </a>
 
     <!-- Desktop Navigation -->
@@ -19,7 +19,7 @@
           <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
         </button>
         <ul class="dropdown" role="menu" style="display:none">
-          <?php foreach ($services as $navSvc): ?>
+          <?php foreach ($services as $navSvc): if (!servicePageExists($navSvc['slug'])) continue; ?>
           <li role="none">
             <a href="/services/<?php echo htmlspecialchars($navSvc['slug']); ?>/" role="menuitem" <?php if ($currentPage === $navSvc['slug']): ?>aria-current="page"<?php endif; ?>>
               <?php echo htmlspecialchars($navSvc['name']); ?>
@@ -59,7 +59,7 @@
 
       <!-- Services submenu -->
       <li class="mobile-submenu-header">Services</li>
-      <?php foreach ($services as $navSvc): ?>
+      <?php foreach ($services as $navSvc): if (!servicePageExists($navSvc['slug'])) continue; ?>
       <li class="mobile-submenu-item">
         <a href="/services/<?php echo htmlspecialchars($navSvc['slug']); ?>/" <?php if ($currentPage === $navSvc['slug']): ?>aria-current="page"<?php endif; ?>>
           <?php echo htmlspecialchars($navSvc['name']); ?>

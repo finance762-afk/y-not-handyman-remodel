@@ -16,7 +16,7 @@ $pageTitle       = 'Home Remodeling in St. George, UT | Y-Not Handyman & Remodel
 $pageDescription = 'Kitchen, bathroom, and whole-home remodeling in St. George, UT. Local, owner-run contractor for decks, additions, and complete room updates. Free estimates.';
 $metaDescription = $pageDescription;
 $canonicalUrl    = $siteUrl . '/services/home-remodeling/';
-$ogImage         = $siteUrl . '/assets/images/gbp-35.jpg';
+$ogImage         = $siteUrl . '/assets/images/job-bath-finished.jpg';
 
 /* Service data for schema */
 $currentService = getServiceBySlug($serviceSlug);
@@ -101,7 +101,7 @@ $schemaMarkup = generateGraphSchema([$serviceSchema, $breadcrumbSchema, $faqSche
 
 /* Hero preload */
 $heroPreload = [
-    'srcset' => '/assets/images/gbp-35-480.avif 480w, /assets/images/gbp-35-960.avif 960w',
+    'srcset' => '/assets/images/job-bath-finished-480.avif 480w, /assets/images/job-bath-finished-960.avif 960w',
     'sizes'  => '(max-width: 900px) 100vw, 50vw',
 ];
 
@@ -255,8 +255,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <div class="expert-grid">
       <div class="reveal-left">
         <picture>
-          <source type="image/avif" srcset="/assets/images/gbp-35-480.avif 480w, /assets/images/gbp-35-960.avif 960w" sizes="(max-width: 900px) 100vw, 45vw">
-          <img src="/assets/images/gbp-35.jpg" srcset="/assets/images/gbp-35-480.webp 480w, /assets/images/gbp-35-960.webp 960w" sizes="(max-width: 900px) 100vw, 45vw" alt="Composite deck with lattice panels" width="1500" height="2000" loading="lazy" decoding="async">
+          <source type="image/avif" srcset="/assets/images/job-bath-finished-480.avif 480w, /assets/images/job-bath-finished-960.avif 960w" sizes="(max-width: 900px) 100vw, 45vw">
+          <img src="/assets/images/job-bath-finished.jpg" srcset="/assets/images/job-bath-finished-480.webp 480w, /assets/images/job-bath-finished-960.webp 960w" sizes="(max-width: 900px) 100vw, 45vw" alt="Remodeled bathroom with a white vanity, matte-black faucet, tiled floor and tiled tub surround" width="1500" height="2000" loading="lazy" decoding="async">
         </picture>
       </div>
 

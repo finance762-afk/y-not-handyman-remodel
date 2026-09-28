@@ -16,7 +16,7 @@ $pageTitle       = 'Door Installation in St. George, UT | Y-Not Handyman & Remod
 $pageDescription = 'Interior and exterior door installation in St. George, UT. Local, owner-run contractor for new doors, replacements, hardware, weatherstripping. Free estimates.';
 $metaDescription = $pageDescription;
 $canonicalUrl    = $siteUrl . '/services/door-installation/';
-$ogImage         = $siteUrl . '/assets/images/gbp-07.jpg';
+$ogImage         = $siteUrl . '/assets/images/job-office-finished.jpg';
 
 /* Service data for schema */
 $currentService = getServiceBySlug($serviceSlug);
@@ -101,7 +101,7 @@ $schemaMarkup = generateGraphSchema([$serviceSchema, $breadcrumbSchema, $faqSche
 
 /* Hero preload */
 $heroPreload = [
-    'srcset' => '/assets/images/gbp-07-480.avif 480w, /assets/images/gbp-07-960.avif 960w',
+    'srcset' => '/assets/images/job-office-finished-480.avif 480w, /assets/images/job-office-finished-960.avif 960w',
     'sizes'  => '(max-width: 900px) 100vw, 50vw',
 ];
 
@@ -255,8 +255,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <div class="expert-grid">
       <div class="reveal-left">
         <picture>
-          <source type="image/avif" srcset="/assets/images/gbp-07-480.avif 480w, /assets/images/gbp-07-960.avif 960w" sizes="(max-width: 900px) 100vw, 45vw">
-          <img src="/assets/images/gbp-07.jpg" srcset="/assets/images/gbp-07-480.webp 480w, /assets/images/gbp-07-960.webp 960w" sizes="(max-width: 900px) 100vw, 45vw" alt="Clean door installation with painted trim" width="1500" height="2000" loading="lazy" decoding="async">
+          <source type="image/avif" srcset="/assets/images/job-office-finished-480.avif 480w, /assets/images/job-office-finished-960.avif 960w" sizes="(max-width: 900px) 100vw, 45vw">
+          <img src="/assets/images/job-office-finished.jpg" srcset="/assets/images/job-office-finished-480.webp 480w, /assets/images/job-office-finished-960.webp 960w" sizes="(max-width: 900px) 100vw, 45vw" alt="New interior wall and wood door finished and painted by Y-Not Handyman &amp; Remodel" width="1500" height="2000" loading="lazy" decoding="async">
         </picture>
       </div>
 

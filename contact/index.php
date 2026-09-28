@@ -14,7 +14,7 @@ $pageTitle       = 'Contact Us | Y-Not Handyman & Remodel | St. George, UT';
 $pageDescription = 'Get in touch with Y-Not Handyman & Remodel in St. George, UT. Call (801) 833-1588 for your free estimate or fill out our contact form. Fast response times.';
 $metaDescription = $pageDescription;
 $canonicalUrl    = $siteUrl . '/contact/';
-$ogImage         = $siteUrl . '/assets/images/gbp-05.jpg';
+$ogImage         = $siteUrl . '/assets/images/job-kitchen-finished-2.jpg';
 
 // BreadcrumbList schema
 $breadcrumbs = [

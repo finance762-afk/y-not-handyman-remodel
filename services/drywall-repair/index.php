@@ -16,7 +16,7 @@ $pageTitle       = 'Drywall Repair in St. George, UT | Y-Not Handyman & Remodel'
 $pageDescription = 'Professional drywall repair in St. George, UT. Holes, cracks, water damage, texture matching. Fast, local, paint-ready finish. Free estimates since 2020.';
 $metaDescription = $pageDescription;
 $canonicalUrl    = $siteUrl . '/services/drywall-repair/';
-$ogImage         = $siteUrl . '/assets/images/gbp-05.jpg';
+$ogImage         = $siteUrl . '/assets/images/job-sim-bay-drywall-tape.jpg';
 
 /* Service data for schema */
 $currentService = getServiceBySlug($serviceSlug);
@@ -101,7 +101,7 @@ $schemaMarkup = generateGraphSchema([$serviceSchema, $breadcrumbSchema, $faqSche
 
 /* Hero preload */
 $heroPreload = [
-    'srcset' => '/assets/images/gbp-05-480.avif 480w, /assets/images/gbp-05-960.avif 960w',
+    'srcset' => '/assets/images/job-sim-bay-drywall-tape-480.avif 480w, /assets/images/job-sim-bay-drywall-tape-960.avif 960w',
     'sizes'  => '(max-width: 900px) 100vw, 50vw',
 ];
 
@@ -255,8 +255,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <div class="expert-grid">
       <div class="reveal-left">
         <picture>
-          <source type="image/avif" srcset="/assets/images/gbp-05-480.avif 480w, /assets/images/gbp-05-960.avif 960w" sizes="(max-width: 900px) 100vw, 45vw">
-          <img src="/assets/images/gbp-05.jpg" srcset="/assets/images/gbp-05-480.webp 480w, /assets/images/gbp-05-960.webp 960w" sizes="(max-width: 900px) 100vw, 45vw" alt="Smoothly finished and repainted interior wall" width="1500" height="2000" loading="lazy" decoding="async">
+          <source type="image/avif" srcset="/assets/images/job-sim-bay-drywall-tape-480.avif 480w, /assets/images/job-sim-bay-drywall-tape-960.avif 960w" sizes="(max-width: 900px) 100vw, 45vw">
+          <img src="/assets/images/job-sim-bay-drywall-tape.jpg" srcset="/assets/images/job-sim-bay-drywall-tape-480.webp 480w, /assets/images/job-sim-bay-drywall-tape-960.webp 960w" sizes="(max-width: 900px) 100vw, 45vw" alt="Drywall wall with taped and mudded seams and screw spots, ready for the next coat" width="1500" height="2000" loading="lazy" decoding="async">
         </picture>
       </div>
 
