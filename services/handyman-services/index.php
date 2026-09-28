@@ -13,7 +13,7 @@ $pageType    = 'service';
 $serviceSlug = 'handyman-services';
 
 $pageTitle       = 'Handyman Services in St. George, UT | Y-Not Handyman & Remodel';
-$pageDescription = 'Handyman services in St. George, UT. Repairs to punch lists — drywall, painting, fixtures, doors. Locally owned since 2020, free estimates. (801) 833-1588.';
+$pageDescription = 'Handyman services in St. George, UT. Repairs to punch lists — drywall, painting, faucets, doors. Locally owned since 2020, free estimates. (801) 833-1588.';
 $metaDescription = $pageDescription;
 $canonicalUrl    = $siteUrl . '/services/handyman-services/';
 $ogImage         = $siteUrl . '/assets/images/gbp-12.jpg';
@@ -25,7 +25,7 @@ $currentService = getServiceBySlug($serviceSlug);
 $serviceFaqs = [
     [
         'q' => 'What types of handyman jobs do you handle in St. George?',
-        'a' => 'We handle small to medium repairs like drywall patching, door adjustments, fixture swaps, basic plumbing and electrical fixes, caulking, painting touch-ups, deck and fence repairs, and general punch lists. If it fits on a home to-do list, we can help.',
+        'a' => 'We handle small to medium repairs like drywall patching, door adjustments, faucet swaps, basic plumbing fixes, caulking, painting touch-ups, deck and fence repairs, and general punch lists. If it fits on a home to-do list, we can help.',
     ],
     [
         'q' => 'Do you charge by the hour or by the job?',
@@ -50,7 +50,7 @@ $serviceSchema = [
     '@type' => 'Service',
     '@id' => $siteUrl . '/services/handyman-services/#service',
     'name' => 'Handyman Services',
-    'description' => 'Professional handyman services in St. George, UT. We handle small repairs, punch lists, fixture installations, door adjustments, drywall patching, and general home maintenance work.',
+    'description' => 'Professional handyman services in St. George, UT. We handle small repairs, punch lists, faucet and hardware installations, door adjustments, drywall patching, and general home maintenance work.',
     'provider' => ['@id' => $siteUrl . '#organization'],
     'areaServed' => [
         '@type' => 'City',
@@ -239,7 +239,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       </div>
       <div class="bento-card">
         <h3>The job is too small for a specialist</h3>
-        <p>A plumber won't come out to swap a single faucet. An electrician won't travel for one outlet. A handyman handles these quick fixes without a three-hour minimum.</p>
+        <p>A plumber won't come out to swap a single faucet. A remodeling contractor won't bid on one sticking door. A handyman handles these quick fixes without a three-hour minimum.</p>
       </div>
       <div class="bento-card">
         <h3>You'd rather not DIY it</h3>
@@ -270,7 +270,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <div class="expert-differentiators">
           <div class="diff-item">
             <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 12 2 2 4-4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
-            <p><strong>One contractor for everything.</strong> We handle drywall, painting, doors, fixtures, caulking, basic plumbing and electrical, decks, fences, and more — no need to juggle multiple contractors.</p>
+            <p><strong>One contractor for everything.</strong> We handle drywall, painting, doors, faucets, caulking, basic plumbing, decks, fences, and more — no need to juggle multiple contractors.</p>
           </div>
           <div class="diff-item">
             <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 12 2 2 4-4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
@@ -292,7 +292,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <div class="reveal-up">
       <span class="eyebrow-label">What We Handle</span>
       <h2>What's included in our <span class="text-accent">handyman services?</span></h2>
-      <p class="answer-block">Y-Not Handyman &amp; Remodel covers small repairs, fixture installations, punch lists, and general home maintenance work — essentially any job that doesn't require a licensed specialist for the full project.</p>
+      <p class="answer-block">Y-Not Handyman &amp; Remodel covers small repairs, faucet and hardware installs, punch lists, and general home maintenance work — essentially any job that doesn't require a licensed specialist for the full project.</p>
     </div>
 
     <div class="breakdown-grid reveal-up">

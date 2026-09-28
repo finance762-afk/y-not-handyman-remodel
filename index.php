@@ -36,7 +36,7 @@ $faqs = [
     ],
     [
         'q' => 'What types of projects do you handle?',
-        'a' => 'Everything from small repairs — drywall, painting, doors, fixtures, caulking — to larger projects like kitchen and bath updates, decks, and whole-room remodels. If it is on your home to-do list, ask us.',
+        'a' => 'Everything from small repairs — drywall, painting, doors, faucets, caulking — to larger projects like kitchen and bath updates, decks, and whole-room remodels. If it is on your home to-do list, ask us.',
     ],
     [
         'q' => 'What areas around St. George do you serve?',
@@ -373,7 +373,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <div class="section-head reveal-up">
       <span class="eyebrow-label">What We Do</span>
       <h2>What can <span class="text-accent">Y-Not</span> fix or build for your St. George home?</h2>
-      <p class="hero-answer">Y-Not Handyman &amp; Remodel covers the full range of home projects for St. George homeowners — from a single sticking door or drywall patch to interior painting, fixture swaps, decks, and complete room remodels, all handled by one accountable crew.</p>
+      <p class="hero-answer">Y-Not Handyman &amp; Remodel covers the full range of home projects for St. George homeowners — from a single sticking door or drywall patch to interior painting, faucet swaps, decks, and complete room remodels, all handled by one accountable crew.</p>
     </div>
 
     <div class="services-grid">

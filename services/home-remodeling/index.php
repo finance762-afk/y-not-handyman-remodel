@@ -37,7 +37,7 @@ $serviceFaqs = [
     ],
     [
         'q' => 'Do you handle permits for remodeling work?',
-        'a' => 'Yes. We pull all necessary permits for structural work, electrical, plumbing, and HVAC. Permit costs are included in your estimate, and inspections are scheduled and managed by us.',
+        'a' => 'Permit needs depend on the scope of the job. During the free estimate we talk through whether your project is likely to need a permit from your city\'s building department, so there are no surprises before work starts.',
     ],
     [
         'q' => 'Do you offer financing for larger remodeling projects?',
@@ -185,7 +185,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <ul class="hero-chips">
           <li><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>Owner-operated since 2020</li>
           <li><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/><path d="m9 16 2 2 4-4"/></svg>Free design consultation</li>
-          <li><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Permits handled for you</li>
+          <li><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Written, itemized quotes</li>
         </ul>
       </div>
 
@@ -235,7 +235,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       </div>
       <div class="bento-card">
         <h3>The bathroom feels cramped or dated</h3>
-        <p>Small vanity, old tile, poor lighting, no storage. A bathroom remodel opens up the space, adds modern fixtures, and makes mornings less stressful.</p>
+        <p>Small vanity, old tile, no storage. A bathroom remodel opens up the space, adds a modern vanity and faucets, and makes mornings less stressful.</p>
       </div>
       <div class="bento-card">
         <h3>You need more space but don't want to move</h3>
@@ -243,7 +243,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       </div>
       <div class="bento-card">
         <h3>The home feels stuck in another decade</h3>
-        <p>Popcorn ceilings, carpet throughout, wood paneling, outdated fixtures. A whole-home remodel brings your space into this century and raises your home's value.</p>
+        <p>Popcorn ceilings, carpet throughout, wood paneling, dated trim and hardware. A whole-home remodel brings your space into this century and raises your home's value.</p>
       </div>
     </div>
   </div>
@@ -270,7 +270,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <div class="expert-differentiators">
           <div class="diff-item">
             <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 12 2 2 4-4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
-            <p><strong>One contractor, full project.</strong> We manage design, permits, labor, and inspections. No juggling multiple subcontractors or chasing down different trades.</p>
+            <p><strong>One contractor, full project.</strong> We manage the schedule, the labor, and the finish work, and tell you up front if any part of the project needs a separately licensed trade.</p>
           </div>
           <div class="diff-item">
             <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 12 2 2 4-4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
@@ -302,7 +302,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         </div>
         <div>
           <h3>Kitchen Remodels</h3>
-          <p>Cabinet installation or refacing, countertops, backsplash tile, new appliances, lighting upgrades, flooring, and layout changes. We turn outdated kitchens into efficient, modern spaces.</p>
+          <p>Cabinet installation or refacing, countertops, backsplash tile, flooring, and layout changes. We turn outdated kitchens into efficient, modern spaces.</p>
         </div>
       </div>
 
@@ -312,7 +312,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         </div>
         <div>
           <h3>Bathroom Remodels</h3>
-          <p>New vanities and fixtures, tile showers and tub surrounds, flooring, lighting, ventilation upgrades, and accessibility modifications. Small powder rooms to full master baths.</p>
+          <p>New vanities and faucets, tile showers and tub surrounds, flooring, and accessibility modifications. Small powder rooms to full master baths.</p>
         </div>
       </div>
 
@@ -322,7 +322,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         </div>
         <div>
           <h3>Room Additions &amp; Expansions</h3>
-          <p>Add a bedroom, expand a living room, build a sunroom, or finish a basement. We handle framing, electrical, plumbing, HVAC, drywall, and finish work.</p>
+          <p>Add a bedroom, expand a living room, build a sunroom, or finish a basement. We handle the framing, drywall, and finish work.</p>
         </div>
       </div>
 
@@ -352,7 +352,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         </div>
         <div>
           <h3>Whole-Home Remodels</h3>
-          <p>Complete interior renovations — new flooring, updated kitchens and baths, fresh paint, new fixtures and hardware, lighting upgrades, and finish carpentry throughout.</p>
+          <p>Complete interior renovations — new flooring, updated kitchens and baths, fresh paint, new hardware, and finish carpentry throughout.</p>
         </div>
       </div>
     </div>
@@ -376,7 +376,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <div class="testimonials reveal-up">
       <div class="testimonial">
         <div class="testimonial-stars">★★★★★</div>
-        <p>"Tony remodeled our master bathroom from floor to ceiling — new tile shower, double vanity, lighting, and flooring. The timeline was exactly what he promised, and the quality is excellent. He cleaned up every day and kept us in the loop throughout."</p>
+        <p>"Tony remodeled our master bathroom from floor to ceiling — new tile shower, double vanity, and flooring. The timeline was exactly what he promised, and the quality is excellent. He cleaned up every day and kept us in the loop throughout."</p>
         <p class="testimonial-author">— Sarah M., St. George</p>
       </div>
 

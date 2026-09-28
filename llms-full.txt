@@ -21,7 +21,7 @@ Website: https://y-not-handyman-remodel.pageone.cloud (preview) — production d
 We provide comprehensive handyman and remodeling services throughout St. George and surrounding communities:
 
 ### 1. Handyman Services
-Small repairs, odd jobs, punch lists, fixture installations, door adjustments, shelf installation, minor carpentry, hardware replacement, and general maintenance tasks. Ideal for homeowners with a list of small projects that need attention. Two-hour minimum for hourly work.
+Small repairs, odd jobs, punch lists, faucet and hardware installs, door adjustments, shelf installation, minor carpentry, hardware replacement, and general maintenance tasks. Ideal for homeowners with a list of small projects that need attention. Two-hour minimum for hourly work.
 
 ### 2. Home Remodeling
 Complete room renovations including kitchen and bathroom updates, decks, outdoor living spaces, whole-room makeovers, and custom carpentry. From design consultation through final walkthrough, we handle every phase of your remodel with transparent pricing and clear timelines.
@@ -39,7 +39,7 @@ Window and door sealing, exterior trim caulking, energy efficiency improvements,
 Walls, trim, ceilings, single rooms or full interiors. We prep surfaces carefully, mask and protect floors and furniture, apply even coats, and clean up daily. Color consultation available.
 
 ### 7. Basic Plumbing & Fixture Installation
-Faucets, sinks, toilets, basic plumbing repairs, garbage disposal installation, and water line connections. We handle common residential plumbing tasks and know when to call in a licensed plumber for complex work.
+Faucets, sinks, toilets, and basic plumbing repairs. We handle common residential plumbing tasks and know when to call in a licensed plumber for complex work.
 
 ### 8. Home Maintenance & Repairs
 Ongoing maintenance work, seasonal repairs, preventive care, and routine inspections. We help homeowners stay ahead of small problems before they become expensive repairs.
@@ -77,7 +77,7 @@ Q: Do you charge for estimates?
 A: No. We provide free, detailed estimates with no obligation. We visit your home, assess the work, explain the scope, timeline, and costs upfront before any work begins. No surprises, no pressure.
 
 Q: What types of projects do you handle?
-A: Everything from small repairs (drywall patches, painting touch-ups, fixture swaps) to major projects (kitchen and bathroom remodels, decks, whole-room renovations). If it's too small or too specialized, we'll tell you honestly and point you to the right resource.
+A: Everything from small repairs (drywall patches, painting touch-ups, faucet swaps) to major projects (kitchen and bathroom remodels, decks, whole-room renovations). If it's too small or too specialized, we'll tell you honestly and point you to the right resource.
 
 Q: How do you price your work?
 A: We offer both hourly and project-based pricing. Small jobs are typically hourly with a two-hour minimum. Larger projects get a detailed written estimate before we start. You'll know the cost before we begin work.
@@ -137,7 +137,7 @@ St. George, Utah is located in southwestern Utah's Washington County, part of th
 - Drywall patch and paint: $150–$300
 - Door adjustment or hardware replacement: $100–$250
 - Caulking and weatherstripping: $150–$400
-- Fixture installation (light, faucet, etc.): $100–$300
+- Faucet swap: $100–$300
 
 ### Larger Projects (Project-Based)
 - Interior door installation: $150–$400 per door
