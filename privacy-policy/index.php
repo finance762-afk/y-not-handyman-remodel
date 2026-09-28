@@ -13,7 +13,7 @@ $pageTitle       = 'Privacy Policy | Y-Not Handyman & Remodel';
 $pageDescription = 'How Y-Not Handyman & Remodel collects, uses, and protects your information. Privacy practices for our website and contact forms.';
 $metaDescription = $pageDescription;
 $canonicalUrl    = $siteUrl . '/privacy-policy/';
-$ogImage         = $siteUrl . '/assets/images/logo-mark.png';
+$ogImage         = $siteUrl . '/assets/images/logo-v2.png';
 
 $companyEntityType = 'Limited Liability Company';
 $companyState      = 'Utah';

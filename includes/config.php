@@ -145,7 +145,7 @@ $directionsUrl    = 'https://www.google.com/maps/dir/?api=1&destination=place_id
 $reviewRequestUrl = 'https://search.google.com/local/writereview?placeid=ChIJCeywCKNFyoARDSbMDhHeo8o';
 
 /* ---- Assets / cache ------------------------------------------------------ */
-$cssVersion = '1';                                    // SINGLE source of the framework.css cache-bust — bump on every framework.css change; pages MUST NOT set their own
+$cssVersion = '2';                                    // SINGLE source of the framework.css cache-bust — bump on every framework.css change; pages MUST NOT set their own
 
 /* ---- Forms --------------------------------------------------------------- */
 $formAction     = 'https://db.pageone.cloud/functions/v1/leads/y-not-handyman-remodel';

@@ -13,7 +13,7 @@ $pageTitle       = 'Terms of Service | Y-Not Handyman & Remodel';
 $pageDescription = 'Terms governing use of our website and engagement of our services. Read our terms before submitting a project request.';
 $metaDescription = $pageDescription;
 $canonicalUrl    = $siteUrl . '/terms/';
-$ogImage         = $siteUrl . '/assets/images/logo-mark.png';
+$ogImage         = $siteUrl . '/assets/images/logo-v2.png';
 
 $companyEntityType = 'Limited Liability Company';
 $companyState      = 'Utah';

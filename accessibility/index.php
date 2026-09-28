@@ -13,7 +13,7 @@ $pageTitle       = 'Accessibility Statement | Y-Not Handyman & Remodel';
 $pageDescription = 'Our commitment to digital accessibility and WCAG 2.1 AA conformance. Learn about our accessibility features and how to report barriers.';
 $metaDescription = $pageDescription;
 $canonicalUrl    = $siteUrl . '/accessibility/';
-$ogImage         = $siteUrl . '/assets/images/logo-mark.png';
+$ogImage         = $siteUrl . '/assets/images/logo-v2.png';
 
 $lastUpdated     = date('F j, Y');
 

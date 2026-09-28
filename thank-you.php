@@ -14,7 +14,7 @@ $pageTitle       = 'Thank You | Y-Not Handyman & Remodel';
 $pageDescription = 'Thank you for contacting Y-Not Handyman & Remodel. We\'ll be in touch shortly with your free estimate.';
 $metaDescription = $pageDescription;
 $canonicalUrl    = $siteUrl . '/thank-you';
-$ogImage         = $siteUrl . '/assets/images/logo-mark.png';
+$ogImage         = $siteUrl . '/assets/images/logo-v2.png';
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';

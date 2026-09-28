@@ -14,7 +14,7 @@ $pageTitle       = 'Page Not Found | Y-Not Handyman & Remodel';
 $pageDescription = 'The page you\'re looking for can\'t be found. Return to our homepage or contact us for assistance.';
 $metaDescription = $pageDescription;
 $canonicalUrl    = $siteUrl . '/404';
-$ogImage         = $siteUrl . '/assets/images/logo-mark.png';
+$ogImage         = $siteUrl . '/assets/images/logo-v2.png';
 
 http_response_code(404);
 

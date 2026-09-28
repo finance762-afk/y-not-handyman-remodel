@@ -13,7 +13,7 @@ $pageTitle       = 'Cookie Policy | Y-Not Handyman & Remodel';
 $pageDescription = 'How Y-Not Handyman & Remodel uses cookies and tracking technologies on our website. Learn about the cookies we use and how to control them.';
 $metaDescription = $pageDescription;
 $canonicalUrl    = $siteUrl . '/cookie-policy/';
-$ogImage         = $siteUrl . '/assets/images/logo-mark.png';
+$ogImage         = $siteUrl . '/assets/images/logo-v2.png';
 
 $lastUpdated     = date('F j, Y');
 

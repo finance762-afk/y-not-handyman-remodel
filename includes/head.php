@@ -19,14 +19,14 @@
   <meta property="og:title" content="<?php echo htmlspecialchars($ogTitle ?? $pageTitle ?? "$siteName | $tagline"); ?>">
   <meta property="og:description" content="<?php echo htmlspecialchars($ogDescription ?? $metaDescription ?? "Y-Not Handyman & Remodel provides professional handyman services and home remodeling in St. George, UT. Locally and family owned since 2020."); ?>">
   <meta property="og:url" content="<?php echo htmlspecialchars($canonicalUrl ?? $siteUrl); ?>">
-  <meta property="og:image" content="<?php echo $ogImage ?? $siteUrl . '/assets/images/logo-mark.png'; ?>">
+  <meta property="og:image" content="<?php echo $ogImage ?? $siteUrl . '/assets/images/logo-v2.png'; ?>">
   <meta property="og:site_name" content="<?php echo htmlspecialchars($siteName); ?>">
   <meta property="og:locale" content="en_US">
 
   <!-- Favicons -->
-  <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+  <link rel="icon" type="image/svg+xml" href="/assets/images/favicon-v2.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-v2-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-v2-16x16.png">
 
   <!-- Fonts: self-hosted (v6.2 — NO Google Fonts CDN) -->
   <!-- Preload above-the-fold heading face only -->
@@ -61,8 +61,8 @@
     "@id": "<?php echo $siteUrl; ?>#organization",
     "name": "<?php echo htmlspecialchars($siteName); ?>",
     "url": "<?php echo $siteUrl; ?>",
-    "logo": "<?php echo $siteUrl; ?>/assets/images/logo-mark.png",
-    "image": "<?php echo $siteUrl; ?>/assets/images/logo-mark.png",
+    "logo": "<?php echo $siteUrl; ?>/assets/images/logo-v2.png",
+    "image": "<?php echo $siteUrl; ?>/assets/images/logo-v2.png",
     "description": "Y-Not Handyman & Remodel is a local handyman and remodeling contractor serving St. George, UT and surrounding areas. We provide professional home repair, remodeling, drywall, painting, door installation, and general handyman services.",
     "telephone": "<?php echo $phoneRaw; ?>",
     "email": "<?php echo $email; ?>",
