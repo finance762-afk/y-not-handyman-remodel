@@ -297,7 +297,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 <section class="about-hero">
   <div class="container">
     <h1>About Y-Not Handyman & Remodel</h1>
-    <p class="hero-answer">We're a family-owned handyman and remodeling contractor serving St. George and surrounding communities since 2020. When you hire us, you're working directly with owner Tony Pomikala—not a sales team, not a rotating crew, just honest work from people who care about getting it right.</p>
+    <p class="hero-answer">We're a family-owned handyman and remodeling contractor serving St. George and surrounding communities since 2020. When you hire us, you're working directly with owner Tony Pomikala and his wife Nancy—not a sales team, not a rotating crew, just honest work from people who care about getting it right.</p>
   </div>
 </section>
 
@@ -315,7 +315,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <span class="eyebrow-label">Our Story</span>
         <h2>Built on Reliability</h2>
         <p>Y-Not Handyman & Remodel started when Tony Pomikala saw too many homeowners stuck waiting on contractors who never showed up or left jobs half-finished. After years in the trades, he knew there was a better way—treat every home like your own, show up when you say you will, and do the work right the first time.</p>
-        <p>Since 2020, we've been serving St. George, Washington, Hurricane, Santa Clara, Ivins, and Leeds with everything from quick repairs to full remodels. We keep our crew small and our standards high. When you call, you talk to Tony. When we show up, you know who's doing the work. And when the job's done, it's done right.</p>
+        <p>Tony runs the work on site, and his wife Nancy handles scheduling and communication, so there's always someone who knows your project when you get in touch.</p>
+        <p>Since 2020, we've been serving St. George, Washington, Hurricane, Santa Clara, Ivins, and Leeds with everything from quick repairs to full remodels. We keep our crew small and our standards high. When you call, you talk to Tony or Nancy. When we show up, you know who's doing the work. And when the job's done, it's done right.</p>
         <p>We're not trying to be the biggest contractor in Washington County—we're trying to be the one you call back.</p>
       </div>
     </div>
@@ -356,7 +357,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
           <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
         </div>
         <h3>Fast Response</h3>
-        <p>Tony returns calls quickly and fits urgent problems in as soon as the schedule allows. When you need help, we're there.</p>
+        <p>Tony and Nancy return calls quickly and fit urgent problems in as soon as the schedule allows. When you need help, we're there.</p>
       </div>
 
       <div class="value-card">

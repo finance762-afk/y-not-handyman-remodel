@@ -278,7 +278,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
           </div>
           <div class="diff-item">
             <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 12 2 2 4-4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
-            <p><strong>Owner-run accountability.</strong> Tony Pomikala personally oversees every remodel. You get one point of contact from estimate to final walkthrough.</p>
+            <p><strong>Owner-run accountability.</strong> Tony Pomikala personally oversees every remodel, and his wife Nancy handles scheduling and communication from estimate to final walkthrough.</p>
           </div>
         </div>
       </div>
@@ -399,7 +399,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <div class="reveal-up">
       <span class="eyebrow-label">How We Compare</span>
       <h2>How does Y-Not compare to <span class="text-accent">other remodeling contractors?</span></h2>
-      <p class="answer-block">Y-Not Handyman &amp; Remodel is owner-run, local, and accountable for the full project — you get one point of contact, transparent pricing, and work Tony stands behind, not a sales rep who disappears after the contract is signed.</p>
+      <p class="answer-block">Y-Not Handyman &amp; Remodel is owner-run, local, and accountable for the full project — you work directly with Tony and his wife Nancy, with transparent pricing and work Tony stands behind, not a sales rep who disappears after the contract is signed.</p>
     </div>
 
     <div class="comparison-grid reveal-up">
@@ -431,7 +431,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <h3>Y-Not Handyman &amp; Remodel</h3>
         <div class="comparison-item">
           <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 12 2 2 4-4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
-          <p>Owner Tony manages your project from start to finish</p>
+          <p>Tony runs the work; Nancy keeps your schedule on track</p>
         </div>
         <div class="comparison-item">
           <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 12 2 2 4-4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>

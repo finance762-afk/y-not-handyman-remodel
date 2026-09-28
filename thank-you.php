@@ -210,7 +210,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
             <div class="step-number">1</div>
             <div class="step-text">
               <strong>We Review Your Request</strong>
-              Owner Tony Pomikala personally reviews every inquiry to make sure we understand exactly what you need done.
+              Tony Pomikala and his wife Nancy personally review every inquiry to make sure we understand exactly what you need done.
             </div>
           </div>
 

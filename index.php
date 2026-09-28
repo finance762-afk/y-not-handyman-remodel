@@ -28,7 +28,7 @@ $heroPreload = [
 $faqs = [
     [
         'q' => 'How quickly can you start work?',
-        'a' => 'Call or send the form and Tony will offer the first available time. Urgent problems like water damage are fitted in as soon as the schedule allows, so it helps to book a free estimate early once the busy season starts.',
+        'a' => 'Call or send the form and Nancy will offer the first available time. Urgent problems like water damage are fitted in as soon as the schedule allows, so it helps to book a free estimate early once the busy season starts.',
     ],
     [
         'q' => 'Do you charge for estimates?',
@@ -164,7 +164,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 .home-about .about-stat-card b { font-family: var(--font-accent); font-size: 1.5rem; color: var(--color-primary); line-height: 1; }
 .home-about .about-stat-card span { font-size: .8rem; color: var(--color-muted); }
 .home-about .about-signature { margin-top: var(--space-6); display: flex; align-items: center; gap: var(--space-3); }
-.home-about .about-signature .sig-name { font-family: var(--font-heading); font-weight: 800; }
+.home-about .about-signature .sig-name { font-family: var(--font-heading); font-weight: 800; white-space: nowrap; }
 .home-about .about-signature .sig-role { font-size: .85rem; color: var(--color-muted); }
 
 /* Mid-page CTA band (dark, grain) */
@@ -429,7 +429,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <span class="eyebrow">Who You're Hiring</span>
         <h2>A St. George neighbor who does what he says</h2>
         <p class="about-lead">Y-Not Handyman &amp; Remodel started in 2020 on a simple idea: St. George homeowners deserve a contractor who shows up, does what he promises, and treats your house like his own.</p>
-        <p>Owner Tony Pomikala runs every job personally — from a single sticking door to a full kitchen remodel. You get one accountable point of contact, honest pricing, and a clean job site from the first visit to the final walkthrough. No subcontractor runaround, no surprise line items.</p>
+        <p>Owner Tony Pomikala runs every job personally — from a single sticking door to a full kitchen remodel — and his wife Nancy handles scheduling and keeps you updated along the way. You deal with the same two people from the first call to the final walkthrough, with honest pricing and a clean job site. No subcontractor runaround, no surprise line items.</p>
 
         <ol class="process-steps">
           <li>
@@ -451,8 +451,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         </ol>
 
         <div class="about-signature">
-          <span class="sig-name">Tony Pomikala</span>
-          <span class="sig-role">Owner &amp; Lead Craftsman</span>
+          <span class="sig-name">Tony &amp; Nancy</span>
+          <span class="sig-role">Tony Pomikala, owner &amp; lead craftsman<br>Nancy, scheduling &amp; communication</span>
         </div>
       </div>
 
@@ -517,7 +517,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <div class="estimate-form-head">
           <span class="eyebrow-label">Free Estimate</span>
           <h2>Tell us about the job</h2>
-          <p>Send a few details and Tony will get back to you the same day with next steps.</p>
+          <p>Send a few details and Nancy will get back to you the same day with next steps.</p>
         </div>
 
         <form action="<?php echo htmlspecialchars($formAction); ?>" method="POST" class="p1-form">
@@ -595,7 +595,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <aside class="estimate-aside">
         <h3>What happens next</h3>
         <ol class="next-steps">
-          <li><strong>We reach out same day</strong> Tony calls or texts to talk through your project and answer questions.</li>
+          <li><strong>We reach out same day</strong> Nancy or Tony calls or texts to talk through your project and answer questions.</li>
           <li><strong>Free on-site estimate</strong> We walk the job in person and put the scope, timeline, and price in writing.</li>
           <li><strong>We get to work</strong> Once you approve, we put the job on the schedule and confirm the date with you.</li>
         </ol>

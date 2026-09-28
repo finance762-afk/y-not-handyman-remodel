@@ -33,7 +33,7 @@ $serviceFaqs = [
     ],
     [
         'q' => 'How quickly can you schedule handyman work?',
-        'a' => 'Tony returns calls quickly and offers the first available time on the schedule. If you have an urgent fix, say so when you call and he will do his best to fit you in sooner.',
+        'a' => 'Tony and Nancy return calls quickly and offer the first available time on the schedule. If you have an urgent fix, say so when you call and they will do their best to fit you in sooner.',
     ],
     [
         'q' => 'Can you handle my honey-do list all at once?',
@@ -278,7 +278,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
           </div>
           <div class="diff-item">
             <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 12 2 2 4-4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
-            <p><strong>Owner-run and accountable.</strong> Tony Pomikala manages every job personally. You get one point of contact from estimate to completion.</p>
+            <p><strong>Owner-run and accountable.</strong> Tony Pomikala manages every job personally, and his wife Nancy handles scheduling and communication from estimate to completion.</p>
           </div>
         </div>
       </div>
@@ -399,7 +399,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <div class="reveal-up">
       <span class="eyebrow-label">How We Compare</span>
       <h2>How does Y-Not compare to <span class="text-accent">other handymen?</span></h2>
-      <p class="answer-block">Y-Not Handyman &amp; Remodel is locally owned and owner-run — you get one accountable point of contact, transparent pricing, and work Tony stands behind, not a different subcontractor every visit.</p>
+      <p class="answer-block">Y-Not Handyman &amp; Remodel is locally owned and owner-run — you work directly with Tony and his wife Nancy, with transparent pricing and work Tony stands behind, not a different subcontractor every visit.</p>
     </div>
 
     <div class="comparison-grid reveal-up">
