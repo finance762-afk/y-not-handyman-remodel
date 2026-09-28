@@ -373,18 +373,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <p class="answer-block">Because we finish on schedule, stay within budget, communicate through every step, and leave the job site clean at the end of each day — the basics that matter most on a multi-week project.</p>
     </div>
 
-    <div class="testimonials reveal-up">
-      <div class="testimonial">
-        <div class="testimonial-stars">★★★★★</div>
-        <p>"Tony remodeled our master bathroom from floor to ceiling — new tile shower, double vanity, and flooring. The timeline was exactly what he promised, and the quality is excellent. He cleaned up every day and kept us in the loop throughout."</p>
-        <p class="testimonial-author">— Sarah M., St. George</p>
-      </div>
-
-      <div class="testimonial">
-        <div class="testimonial-stars">★★★★★</div>
-        <p>"We hired Y-Not to update our kitchen — new cabinets, countertops, backsplash, and flooring. Tony walked us through material options, kept the job on budget, and the finished kitchen looks amazing. We couldn't be happier."</p>
-        <p class="testimonial-author">— David R., Washington</p>
-      </div>
+    <div class="reveal-up" style="margin-top:var(--space-5);text-align:center;">
+      <a href="https://www.google.com/maps/place/?q=place_id:ChIJCeywCKNFyoARDSbMDhHeo8o" class="btn btn-primary" target="_blank" rel="noopener">Read our <?php echo $reviewCount; ?> reviews on Google</a>
     </div>
 
     <div class="reveal-up" style="margin-top:var(--space-6);text-align:center;">

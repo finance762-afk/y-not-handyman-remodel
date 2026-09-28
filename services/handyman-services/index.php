@@ -373,18 +373,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <p class="answer-block">Because we show up on time, price the job fairly, finish it right, and clean up the site when we're done — the basics that too many contractors skip.</p>
     </div>
 
-    <div class="testimonials reveal-up">
-      <div class="testimonial">
-        <div class="testimonial-stars">★★★★★</div>
-        <p>"Tony fixed a laundry list of small repairs around our house — drywall patches, a sticking door, caulking around the shower, and a fence panel that had come loose. He knocked it all out in one day. Honest pricing and good work."</p>
-        <p class="testimonial-author">— Mike T., St. George</p>
-      </div>
-
-      <div class="testimonial">
-        <div class="testimonial-stars">★★★★★</div>
-        <p>"We called Y-Not to swap out a few old faucets and install some grab bars in the bathroom. Tony showed up on time, brought all the right tools, and finished the job in a few hours. No drama, no upselling. Will call him again."</p>
-        <p class="testimonial-author">— Linda R., Washington</p>
-      </div>
+    <div class="reveal-up" style="margin-top:var(--space-5);text-align:center;">
+      <a href="https://www.google.com/maps/place/?q=place_id:ChIJCeywCKNFyoARDSbMDhHeo8o" class="btn btn-primary" target="_blank" rel="noopener">Read our <?php echo $reviewCount; ?> reviews on Google</a>
     </div>
 
     <div class="reveal-up" style="margin-top:var(--space-6);text-align:center;">

@@ -373,18 +373,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <p class="answer-block">Because the doors close smoothly, seal tightly, and look professionally finished — and the job gets done on schedule without surprises.</p>
     </div>
 
-    <div class="testimonials reveal-up">
-      <div class="testimonial">
-        <div class="testimonial-stars">★★★★★</div>
-        <p>"Tony replaced our front door and installed new weatherstripping. The fit is perfect — no more dust blowing in under the threshold. The door swings smoothly and the hardware is solid. Very happy with the work."</p>
-        <p class="testimonial-author">— Brian K., St. George</p>
-      </div>
-
-      <div class="testimonial">
-        <div class="testimonial-stars">★★★★★</div>
-        <p>"We upgraded all the interior doors in our home from hollow-core to solid-core. Y-Not installed them quickly, leveled everything perfectly, and the doors all close quietly and securely. Clean work, fair pricing."</p>
-        <p class="testimonial-author">— Jennifer S., Washington</p>
-      </div>
+    <div class="reveal-up" style="margin-top:var(--space-5);text-align:center;">
+      <a href="https://www.google.com/maps/place/?q=place_id:ChIJCeywCKNFyoARDSbMDhHeo8o" class="btn btn-primary" target="_blank" rel="noopener">Read our <?php echo $reviewCount; ?> reviews on Google</a>
     </div>
 
     <div class="reveal-up" style="margin-top:var(--space-6);text-align:center;">

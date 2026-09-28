@@ -373,18 +373,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <p class="answer-block">Because the repairs blend seamlessly, the work finishes on schedule, and the job site is left clean — no visible patches, no messy dust piles.</p>
     </div>
 
-    <div class="testimonials reveal-up">
-      <div class="testimonial">
-        <div class="testimonial-stars">★★★★★</div>
-        <p>"We had a big hole in the hallway from moving furniture. Tony patched it, matched the texture perfectly, and you can't even tell it was ever damaged. Fast turnaround and very reasonable price."</p>
-        <p class="testimonial-author">— Karen L., St. George</p>
-      </div>
-
-      <div class="testimonial">
-        <div class="testimonial-stars">★★★★★</div>
-        <p>"Water damage from a roof leak left a soft patch in the ceiling. Y-Not cut out the damaged drywall, replaced it, texture-matched, and primed it. Clean work, and the repair is invisible."</p>
-        <p class="testimonial-author">— Greg P., Washington</p>
-      </div>
+    <div class="reveal-up" style="margin-top:var(--space-5);text-align:center;">
+      <a href="https://www.google.com/maps/place/?q=place_id:ChIJCeywCKNFyoARDSbMDhHeo8o" class="btn btn-primary" target="_blank" rel="noopener">Read our <?php echo $reviewCount; ?> reviews on Google</a>
     </div>
 
     <div class="reveal-up" style="margin-top:var(--space-6);text-align:center;">
