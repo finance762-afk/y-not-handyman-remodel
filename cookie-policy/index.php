@@ -194,9 +194,6 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     Phone: <a href="tel:<?php echo $phoneRaw; ?>"><?php echo htmlspecialchars($phone); ?></a>
   </p>
 
-  <div class="legal-disclaimer">
-    This Cookie Policy is provided as a general template. We recommend reviewing this document with a licensed attorney before publication to ensure compliance with current cookie consent laws.
-  </div>
 
 </article>
 

@@ -203,9 +203,6 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     Address: <?php echo htmlspecialchars($address['street']); ?>, <?php echo htmlspecialchars($address['city']); ?>, <?php echo htmlspecialchars($address['state']); ?> <?php echo htmlspecialchars($address['zip']); ?>
   </p>
 
-  <div class="legal-disclaimer">
-    This Accessibility Statement is provided as a general template. We recommend reviewing this document with a licensed attorney and accessibility consultant before publication.
-  </div>
 
 </article>
 
