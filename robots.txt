@@ -13,4 +13,4 @@ Disallow: /assets/js/
 Disallow: /thank-you
 
 # Sitemap location
-Sitemap: https://y-not-handyman-remodel.pageone.cloud/sitemap.xml
+Sitemap: https://ynothandyman.net/sitemap.xml

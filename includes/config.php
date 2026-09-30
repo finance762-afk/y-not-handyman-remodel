@@ -16,7 +16,7 @@ $ownerName       = 'Tony Pomikala';
 
 /* ---- Domain / URLs ------------------------------------------------------- */
 // No production_domain in build-plan.json → default to the preview host.
-$domain          = 'y-not-handyman-remodel.pageone.cloud';
+$domain          = 'ynothandyman.net';
 $siteUrl         = 'https://' . $domain;              // always a valid absolute URL
 // NOTE: $canonicalUrl is NOT set here — each page sets its own before head.php.
 
