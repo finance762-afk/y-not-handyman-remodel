@@ -109,7 +109,7 @@ $serviceAreas = [
 
 /* ---- Social / analytics -------------------------------------------------- */
 $socialLinks        = [];                             // none provided in intake
-$googleAnalyticsId  = 'G-XXXXXXXXXX';                 // placeholder — replaced post-launch
+$googleAnalyticsId  = 'G-5LTJ6KC0KD';                 // placeholder — replaced post-launch
 
 /* ---- Brand colors (scaffold defaults — finalized from logo in Phase 2) --- */
 $colors = [
