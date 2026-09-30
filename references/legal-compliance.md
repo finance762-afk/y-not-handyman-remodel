@@ -1,4 +1,7 @@
 # Page One Insights — Legal Compliance Reference
+
+> **RULE (Sep 29 2026):** never print a "provided as a general template / review with a licensed attorney before publication" disclaimer on a published page — it tells visitors the page is an unfinished draft (removed from 46 live client sites Sep 29). Only include an "Insurance Claim Work" clause for trades that actually do insurance work (roofing, restoration, tree/storm, auto glass, contracting).
+
 # legal-compliance.md v6.1
 
 > This is the canonical reference for all legal/compliance page generation, TCPA consent patterns, cookie banner implementation, and footer legal row markup. Loaded by the `pageone-web-builder` skill during Phase 1 (footer template setup) and Phase 3D (compliance pages).
@@ -741,10 +744,6 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       Address: <?php echo $companyAddress; ?>
     </p>
 
-    <div class="legal-disclaimer">
-      This Privacy Policy is provided as a general template. We recommend reviewing this document with a licensed <?php echo $companyState; ?> attorney before publication to ensure compliance with current state and federal privacy laws.
-    </div>
-
   </article>
 
 </main>
@@ -808,8 +807,6 @@ We may update these Terms at any time. The "Last Updated" date will reflect the 
 ## 13. Contact Us
 [Standard contact block]
 
-## Disclaimer
-This document is provided as a general template. We recommend reviewing with a licensed [State] attorney before publication.
 ```
 
 ---

@@ -54,11 +54,11 @@ $servicesDisplay = [
         'bullets' => ['Interior & exterior doors', 'Hardware & locksets', 'Weather-tight fit'],
     ],
     [
-        'slug' => 'caulking-weatherproofing', 'name' => 'Caulking & Weatherproofing',
-        'photo' => 'job-backsplash', 'icon' => 'shield-check',
+        'slug' => 'tile-backsplash', 'name' => 'Tile & Backsplash',
+        'photo' => 'job-backsplash', 'icon' => 'grid-3x3',
         'alt'  => 'Patterned tile backsplash finished cleanly along a stone countertop and sink',
-        'desc' => 'Sealing the gaps that let desert heat, dust and water into your home.',
-        'bullets' => ['Window & door sealing', 'Exterior trim caulking', 'Lower cooling bills'],
+        'desc' => 'Professional tile installation for kitchens, bathrooms and accent walls.',
+        'bullets' => ['Kitchen backsplashes', 'Bathroom tile work', 'Custom patterns & layouts'],
     ],
     [
         'slug' => 'interior-painting', 'name' => 'Interior Painting',

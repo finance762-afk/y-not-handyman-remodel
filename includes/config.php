@@ -72,10 +72,10 @@ $services = [
         'keywords'    => 'door installation St. George UT',
     ],
     [
-        'name'        => 'Caulking & Weatherproofing',
-        'slug'        => 'caulking-weatherproofing',
-        'description' => 'Sealing, caulking, and weatherproofing to protect St. George homes.',
-        'keywords'    => 'caulking & weatherproofing St. George UT',
+        'name'        => 'Tile & Backsplash',
+        'slug'        => 'tile-backsplash',
+        'description' => 'Professional tile installation for kitchens, bathrooms and backsplashes in St. George.',
+        'keywords'    => 'tile & backsplash St. George UT',
     ],
     [
         'name'        => 'Interior Painting',
