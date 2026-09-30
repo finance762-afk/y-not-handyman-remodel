@@ -36,7 +36,7 @@ $serviceFaqs = [
         'a' => 'Yes. We walk you through design options, recommend materials that fit your budget and lifestyle, and help you visualize the finished space. We work with local suppliers to get you quality materials at fair prices.',
     ],
     [
-        'q' => 'Do you handle permits for remodeling work?',
+        'q' => 'Will my remodel need a permit?',
         'a' => 'Permit needs depend on the scope of the job. During the free estimate we talk through whether your project is likely to need a permit from your city\'s building department, so there are no surprises before work starts.',
     ],
     [
@@ -263,7 +263,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <div class="reveal-right">
         <span class="eyebrow-label">Our Difference</span>
         <h2>Why do St. George homeowners choose <span class="text-accent">Y-Not</span> for remodeling?</h2>
-        <p class="answer-block">Because Y-Not Handyman &amp; Remodel is a locally owned, owner-run contractor who handles the full remodel — from design consultation and permits to final walkthrough — with one accountable team and transparent pricing from day one.</p>
+        <p class="answer-block">Because Y-Not Handyman &amp; Remodel is a locally owned, owner-run contractor who handles the full remodel — from the first walkthrough to the final cleanup — with one accountable team and transparent pricing from day one.</p>
 
         <div class="expert-stat">6 <span style="font-size:.5em;opacity:.7;">years serving St. George</span></div>
 
@@ -292,7 +292,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <div class="reveal-up">
       <span class="eyebrow-label">What We Handle</span>
       <h2>What's included in our <span class="text-accent">home remodeling</span> services?</h2>
-      <p class="answer-block">Y-Not Handyman &amp; Remodel manages every phase of your remodel — from initial design and permitting through demolition, construction, finish work, and final inspection — all with one local, owner-run contractor.</p>
+      <p class="answer-block">Y-Not Handyman &amp; Remodel manages every phase of your remodel — from planning through demolition, construction, finish work and the final walkthrough — all with one local, owner-run contractor.</p>
     </div>
 
     <div class="breakdown-grid reveal-up">
@@ -332,7 +332,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         </div>
         <div>
           <h3>Deck &amp; Outdoor Space Construction</h3>
-          <p>Composite or wood decks, covered patios, pergolas, and outdoor living spaces built to St. George codes. We handle structural design, permits, and inspections.</p>
+          <p>Composite or wood decks, covered patios, pergolas, and outdoor living spaces built to last in the St. George sun.</p>
         </div>
       </div>
 
