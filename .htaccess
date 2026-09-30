@@ -61,6 +61,9 @@ DirectoryIndex index.php index.html
 # Clean URLs
 <IfModule mod_rewrite.c>
     RewriteEngine On
+    # www → apex (one canonical host)
+    RewriteCond %{HTTP_HOST} ^www\.ynothandyman\.net$ [NC]
+    RewriteRule ^(.*)$ https://ynothandyman.net/$1 [R=301,L]
 
     # Dynamic sitemap — /sitemap.xml is served by sitemap.php
     RewriteRule ^sitemap\.xml$ /sitemap.php [L]
