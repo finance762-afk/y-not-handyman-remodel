@@ -493,6 +493,18 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
   </div>
 </section>
 
+<!-- ============ GOOGLE REVIEWS (Page One reviews feed: real reviews, refreshed nightly) ============ -->
+<?php
+require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/google-reviews.php';
+$p1HomeReviews = p1_google_reviews('y-not-handyman-remodel', ['heading' => 'What St. George customers say on Google']);
+if ($p1HomeReviews !== ''): ?>
+<section class="section home-reviews" aria-label="Google reviews" style="background: var(--color-paper-2, var(--color-bg-alt, #f4f6f9)); padding-block: clamp(3rem, 6vw, 5rem);">
+    <div class="container">
+        <?php echo $p1HomeReviews; ?>
+    </div>
+</section>
+<?php endif; ?>
+
 <!-- ============================ FAQ ============================ -->
 <section class="section home-faq" aria-label="Frequently asked questions">
   <div class="container">
